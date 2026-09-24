@@ -31,7 +31,7 @@ games=[]
 for m in re.finditer(r"Jornada\s+(\d+)(.*?)(?=Jornada\s+\d+|$)",s,re.I):
     rnd=int(m.group(1)); block=m.group(2)
     if not 1<=rnd<=38: continue
-    rx=re.compile(r"(\d{1,2}) de ([a-záéíóú]+) de (2026|2027),\s*(\d{1,2}:\d{2}) h:\s*(.*?)\s+[–-]\s+(.*?)(?=\s+\d{1,2} de [a-záéíóú]+ de (?:2026|2027),\s*\d{1,2}:\d{2} h:|\s*$)",re.I)
+    rx=re.compile(r"(\d{1,2}) de ([a-záéíóú]+) de (2026|2027),\s*(\d{1,2}:\d{2}) h:\s*(.*?)\s+[–-]\s+(.*?)(?=\s+(?:Lunes|Martes|Miércoles|Jueves|Viernes|Sábado|Domingo)\s+\d{1,2} de [a-záéíóú]+ de (?:2026|2027),\s*\d{1,2}:\d{2} h:|\s*$)",re.I)
     for g in rx.finditer(block):
         day,mon,year,t,home,away=g.groups()
         home=home.strip(); away=away.strip()
