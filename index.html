@@ -1,1 +1,32 @@
-
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eurolygos menedžeris</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="brand"><div class="brand-mark">EM</div><div><strong>EUROLYGOS</strong><span>MENEDŽERIS</span></div></div>
+  <nav>
+    <button data-view="home" class="active">⌂ Pradžia</button>
+    <button data-view="standings">🏆 Lentelė</button>
+    <button data-view="schedule">▦ Tvarkaraštis</button>
+    <button data-view="results">≡ Rezultatai</button>
+    <button data-view="teams">◉ Komandos</button>
+  </nav>
+  <div class="admin">A <span>Admin<br><small>⚙ Prisijungti</small></span></div>
+</header>
+<main>
+  <div id="status" class="notice">Kraunama...</div>
+  <section class="hero">
+    <div><b>1 TURAS</b><h1>Iki turo pradžios</h1></div>
+    <div id="countdown" class="countdown">-- d. -- val. -- min.</div>
+  </section>
+  <div id="app"></div>
+</main>
+<footer>Eurolygos menedžeris • 2026–2027 • automatinis atnaujinimas</footer>
+<script src="app.js"></script>
+</body>
+</html>
