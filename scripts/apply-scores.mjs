@@ -34,7 +34,7 @@ async function refreshOfficialSchedule(data){
 }
 
 const title=process.env.ISSUE_TITLE||"";
-if(title.startsWith("[TAŠKAI]") && /ATNAUJINTI TVARKARAŠTĮ/i.test(issueBody)){
+if(title.startsWith("[TAŠKAI]") && /ATNAUJINTI TVARKARAŠTĮ/i.test(issueBody)){\n  const {execFileSync}=await import("node:child_process");\n  execFileSync("python",["scripts/build-schedule.py"],{stdio:"inherit"});
   await refreshOfficialSchedule(data);
   fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"\\n");
   process.exit(0);
