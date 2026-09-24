@@ -58,7 +58,7 @@ async function savePoints(){
 
 document.addEventListener("click",e=>{
   if(e.target.matches("nav button"))render(e.target.dataset.view);
-  if(e.target.id==="adminBtn"){$("#adminModal").hidden=false;$("#adminHelp").textContent="";$("#adminPassword").focus()}
+  if(e.target.closest("#adminBtn")){$("#adminModal").hidden=false;$("#adminHelp").textContent="";$("#adminPassword").focus()}
   if(e.target.id==="closeAdmin")$("#adminModal").hidden=true;
   if(e.target.id==="applyPoints")savePoints();
 });
