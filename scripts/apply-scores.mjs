@@ -34,9 +34,12 @@ async function refreshOfficialSchedule(data){
 }
 
 const title=process.env.ISSUE_TITLE||"";
-if(title.startsWith("[TAŠKAI]") && /ATNAUJINTI TVARKARAŠTĮ/i.test(issueBody)){\n  const {execFileSync}=await import("node:child_process");\n  execFileSync("python",["scripts/build-schedule.py"],{stdio:"inherit"});
+if(title.startsWith("[TAŠKAI]") && /ATNAUJINTI TVARKARAŠTĮ/i.test(issueBody)){
+  const {execFileSync}=await import("node:child_process");
+  execFileSync("python",["scripts/build-schedule.py"],{stdio:"inherit"});
   await refreshOfficialSchedule(data);
-  fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"\\n");
+  fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"\
+");
   process.exit(0);
 }
 
@@ -59,12 +62,14 @@ if(title.startsWith("[ANULIUOTI]")){
     }
   }
   data.source.managerScores="GitHub • administratoriaus įvesti taškai";
-  fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"\n");
+  fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"
+");
   process.exit(0);
 }
 
 const points={};
-for(const line of issueBody.split(/\r?\n/)){
+for(const line of issueBody.split(/\r?
+/)){
   const m=line.trim().match(/^(.+?)\s*,\s*(-?\d+(?:[.,]\d+)?)$/);
   if(m) points[m[1].trim()]=Number(m[2].replace(",","."));
 }
@@ -99,4 +104,5 @@ for(const r of data.rounds){
 }
 data.scores=totals;
 data.source.managerScores="GitHub • administratoriaus įvesti taškai";
-fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"\n");
+fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"
+");
