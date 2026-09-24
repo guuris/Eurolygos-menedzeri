@@ -4,6 +4,18 @@ const path="data/league.json";
 const data=JSON.parse(await fs.readFile(path,"utf8"));
 
 const apiUrl="https://api-live.euroleague.net/v2/competitions/E/seasons/E2026/games";
+const managerUrl="https://rc.krepsinis.net/manager/management/140?apiKey=3d76bfb2f3192fd90b9559922840de21";
+
+async function getMarket(){
+  const res=await fetch(managerUrl,{headers:{"User-Agent":"EurolygosMenedzeris/1.0"}});
+  if(!res.ok) throw new Error(`Krepsinis.net HTTP ${res.status}`);
+  const html=await res.text();
+  const open=html.match(/Šiuo metu žaidėjų turgus atidarytas/i);
+  const closed=html.match(/Šiuo metu žaidėjų turgus uždarytas/i);
+  const close=html.match(/Jis užsidarys\s*-\s*([0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2})/i);
+  const next=html.match(/Jis atsidarys\s*-\s*([0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2})/i);
+  return {status:open?"open":closed?"closed":"unknown",closesAt:close?.[1]||null,opensAt:next?.[1]||null,source:"Krepsinis.net Eurolygos menedžeris"};
+}
 const teamByCode=Object.fromEntries(data.teams.map(t=>[t.code,t]));
 const oldByKey=new Map();
 
@@ -21,6 +33,7 @@ async function getSchedule(){
 }
 
 try{
+  try{ data.market=await getMarket(); }catch(e){ console.error("Krepsinis.net rinkos būsena nepavyko:",e.message); }
   const games=await getSchedule();
   const rounds=new Map();
 
