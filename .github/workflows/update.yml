@@ -10,7 +10,7 @@ permissions:
   issues: write
 jobs:
   update:
-    if: github.event_name != 'issues' || (github.event.issue.user.login == 'guuris' && startsWith(github.event.issue.title, '[TAŠKAI]'))
+    if: github.event_name != 'issues' || (github.event.issue.user.login == 'guuris' && (startsWith(github.event.issue.title, '[TAŠKAI]') || startsWith(github.event.issue.title, '[ANULIUOTI]')))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,6 +21,7 @@ jobs:
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
       - if: github.event_name != 'issues'
         run: node scripts/update.mjs
         env:
@@ -32,6 +33,6 @@ jobs:
           git diff --cached --quiet || git commit -m "Atnaujinti turo taškus"
           git push
       - if: github.event_name == 'issues'
-        run: gh issue close "${{ github.event.issue.number }}" --comment "Taškai priimti ir įkelti į lentelę."
+        run: gh issue close "${{ github.event.issue.number }}" --comment "Administratoriaus veiksmas priimtas."
         env:
           GH_TOKEN: ${{ github.token }}
