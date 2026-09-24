@@ -57,3 +57,13 @@ for code,slug in SLUGS.items():
         key=(dt.strftime("%Y-%m-%d"),a,b)
         games[key]={"home":a,"away":b,"date":dt.strftime("%Y-%m-%d"),"time":time.replace(" UTC","")}
 
+
+items=sorted(games.values(),key=lambda x:(x["date"],x["time"],x["home"],x["away"]))
+if len(items)!=380: raise SystemExit(f"Expected 380 unique games, got {len(items)}")
+for i in range(0,380,10):
+    if len(items[i:i+10])!=10: raise SystemExit("Bad round size")
+for code in TEAMS:
+    seen=sum(1 for g in items if g["home"]==code or g["away"]==code)
+    if seen!=38: raise SystemExit(f"{code} has {seen} games")
+json.dump(items,open("data/official-schedule.json","w",encoding="utf-8"),ensure_ascii=False,indent=2)
+print("OK: 380 unique games; 20 teams x 38; 38 rounds x 10")
