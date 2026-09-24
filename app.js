@@ -1,5 +1,5 @@
 let data;
-const ADMIN_PASSWORD_HASH="5440e6a0128e8ffd00caf1bb2fcb940dd3e347910d3a20b8130b413615dcdefc";
+const ADMIN_PASSWORD_HASH="09c8e950e9465a1521625e9f47beaf5cf4141bc5e6f883e1b9635132348e578d";
 async function sha256(text){const bytes=new TextEncoder().encode(text);const hash=await crypto.subtle.digest("SHA-256",bytes);return [...new Uint8Array(hash)].map(b=>b.toString(16).padStart(2,"0")).join("")}
 const $=s=>document.querySelector(s);
 async function load(){try{data=await fetch("data/league.json?x="+Date.now()).then(r=>r.json())}catch(e){$("#status").innerHTML="<strong>Nepavyko įkelti lygos duomenų.</strong>";return}render("home");startClock();$("#status").innerHTML="<strong>Lyga paruošta.</strong> <span>Taškus galima pateikti per Admin langą.</span>"}
