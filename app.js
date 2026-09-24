@@ -1,4 +1,4 @@
-const SUPABASE_URL="https://ohazdehmrpvzotkxojtm";
+const SUPABASE_URL="https://ohazdehmrpvzotkxojtm.supabase.co";
 const SUPABASE_KEY="sb_publishable_dNOWPDWqbmlLDbS-C-lf6Q_H0MaoZzL";
 let data;
 const $=s=>document.querySelector(s);
