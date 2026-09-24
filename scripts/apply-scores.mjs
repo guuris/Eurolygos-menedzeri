@@ -5,7 +5,41 @@ const issueAuthor=process.env.ISSUE_AUTHOR||"";
 if(issueAuthor!=="guuris") throw new Error("Neleistinas autorius.");
 
 const data=JSON.parse(fs.readFileSync("data/league.json","utf8"));
+async function refreshOfficialSchedule(data){
+  const res=await fetch("https://api-live.euroleague.net/v2/competitions/E/seasons/E2026/games",{headers:{"User-Agent":"EurolygosMenedzeris/1.0"}});
+  if(!res.ok) throw new Error(`EuroLeague API HTTP ${res.status}`);
+  const payload=await res.json();
+  const games=Array.isArray(payload.data)?payload.data:[];
+  if(games.length!==380) throw new Error(`EuroLeague API returned ${games.length} games, expected 380`);
+  const map={HTA:"HAP",BAY:"BAY",DUB:"DUB",RMB:"RMA",CZV:"CZV",ZAL:"ZAL",PAO:"PAN",PBB:"PARI",BAR:"BAR",EFS:"EFE",KBA:"BAS",OLY:"OLY",ASV:"ASV",MTA:"MAC",BJK:"BJK",VBC:"VAL",FEN:"FEN",VIR:"VIR",PAR:"PAR",EA7:"MIL"};
+  const getCode=x=>x?.club?.tvCode||x?.club?.code||x?.team?.tvCode||x?.team?.code||x?.tvCode||x?.code;
+  const getRound=g=>Number(g?.round?.roundNumber??g?.round?.number??g?.round?.round??g?.roundNumber??g?.round);
+  const getDate=g=>g?.date||g?.startDate||g?.gameDate||"";
+  const rounds=new Map();
+  for(const g of games){
+    const round=getRound(g), hc=map[getCode(g.local)], ac=map[getCode(g.road)];
+    const home=data.teams.find(t=>t.code===hc), away=data.teams.find(t=>t.code===ac);
+    if(!Number.isFinite(round)||round<1||round>38||!home||!away) continue;
+    const dt=new Date(getDate(g));
+    const date=Number.isNaN(dt.getTime())?String(getDate(g)).slice(0,10):dt.toISOString().slice(0,10);
+    const time=Number.isNaN(dt.getTime())?"—":new Intl.DateTimeFormat("lt-LT",{timeZone:"Europe/Vilnius",hour:"2-digit",minute:"2-digit",hour12:false}).format(dt);
+    if(!rounds.has(round)) rounds.set(round,[]);
+    rounds.get(round).push({homeTeam:home.team,homeManager:home.manager,awayTeam:away.team,awayManager:away.manager,date,time});
+  }
+  if(rounds.size!==38) throw new Error(`EuroLeague API returned only ${rounds.size} rounds`);
+  for(const [r,p] of rounds) if(p.length!==10) throw new Error(`Round ${r} has ${p.length} games, expected 10`);
+  data.rounds=[...rounds.entries()].sort((a,b)=>a[0]-b[0]).map(([round,pairings])=>({round,start:pairings[0].date,end:pairings[pairings.length-1].date,pairings}));
+  data.source.schedule="EuroLeague official API • 38 turai × 10 rungtynių";
+  data.source.lastUpdate=new Date().toISOString();
+}
+
 const title=process.env.ISSUE_TITLE||"";
+if(title.startsWith("[TAŠKAI]") && /ATNAUJINTI TVARKARAŠTĮ/i.test(issueBody)){
+  await refreshOfficialSchedule(data);
+  fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"\\n");
+  process.exit(0);
+}
+
 const currentRound=String(data.rounds[0].round);
 
 if(title.startsWith("[ANULIUOTI]")){
