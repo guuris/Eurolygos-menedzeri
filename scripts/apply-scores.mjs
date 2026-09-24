@@ -62,8 +62,7 @@ if(title.startsWith("[ANULIUOTI]")){
     }
   }
   data.source.managerScores="GitHub • administratoriaus įvesti taškai";
-  fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"
-");
+  fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"\\n");
   process.exit(0);
 }
 
