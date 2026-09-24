@@ -2,3 +2,5 @@
 .points-rows{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:16px 0}.point-row{display:grid;grid-template-columns:1fr 110px;gap:10px;align-items:center;padding:9px 11px;border:1px solid #eee;border-radius:10px;background:#fafafa}.point-row label{font-weight:800}.point-row label span{display:block;color:#888;font-size:12px;font-weight:500;margin-top:2px}.manager-points{width:100%;padding:9px 10px;border:1px solid #d9d9df;border-radius:9px;font:inherit}@media(max-width:600px){.points-rows{grid-template-columns:1fr}.point-row{grid-template-columns:1fr 100px}}
 .market{margin:0 0 18px;padding:12px 16px;border:1px solid rgba(255,255,255,.12);border-radius:12px;background:#111827}.market.open{border-color:#166534}.market.closed{border-color:#7f1d1d}
 .team-logo{width:28px;height:28px;object-fit:contain;vertical-align:middle;margin-right:8px}
+
+.big-logo{width:52px;height:52px;display:block;margin:0 auto 10px;object-fit:contain}.teamcard{text-align:center}
