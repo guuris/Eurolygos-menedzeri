@@ -1,6 +1,7 @@
 from html.parser import HTMLParser
 from urllib.request import Request, urlopen
-from datetime import datetime
+from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 import re,json
 
 TEAMS={
@@ -55,7 +56,7 @@ for code,slug in SLUGS.items():
         dt=datetime(year,MONTH[mon],int(day))
         a,b=(code,opp_map[opp]) if side=="vs" else (opp_map[opp],code)
         key=(dt.strftime("%Y-%m-%d"),a,b)
-        games[key]={"home":a,"away":b,"date":dt.strftime("%Y-%m-%d"),"time":time.replace(" UTC","")}
+        utc_time=datetime.strptime(time.replace(" UTC",""),"%H:%M").time(); utc_dt=datetime(dt.year,dt.month,dt.day,utc_time.hour,utc_time.minute,tzinfo=timezone.utc); local=utc_dt.astimezone(ZoneInfo("Europe/Vilnius")); games[key]={"home":a,"away":b,"date":local.strftime("%Y-%m-%d"),"time":local.strftime("%H:%M")}
 
 
 items=sorted(games.values(),key=lambda x:(x["date"],x["time"],x["home"],x["away"]))
