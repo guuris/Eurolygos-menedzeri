@@ -28,11 +28,11 @@ function schedule(){return `<section class="card"><div class="card-head"><div cl
 function results(){return `<section class="card"><div class="card-head"><div class="eyebrow">REZULTATAI</div><h2>1 turo rezultatai</h2></div>${round().pairings.map(g=>{let a=data.scores[g.homeManager]?.managerPoints,b=data.scores[g.awayManager]?.managerPoints;return `<div class="result"><div><b>${g.homeManager}</b><br><span class="muted">${g.homeTeam}</span></div><div class="pts">${a??"—"} : ${b??"—"}</div><div><b>${g.awayManager}</b><br><span class="muted">${g.awayTeam}</span></div></div>`}).join("")}</section>`}
 function teams(){return `<section class="card"><div class="card-head"><div class="eyebrow">KOMANDOS</div><h2>20 vadybininkų</h2></div><div class="teamgrid">${data.teams.map(t=>`<div class="teamcard"><div class="logo">${t.code}</div><b>${t.team}</b><div class="muted">${t.manager}</div></div>`).join("")}</div></section>`}
 function startClock(){let target=new Date(round().start+"T19:00:00+03:00");setInterval(()=>{let d=Math.max(0,target-new Date()),days=Math.floor(d/86400000),h=Math.floor(d/3600000)%24,m=Math.floor(d/60000)%60;$("#countdown").textContent=`${String(days).padStart(2,"0")} d. ${String(h).padStart(2,"0")} val. ${String(m).padStart(2,"0")} min.`},1000)}
-function parsePoints(text){const out={};for(const raw of text.split(/\r?\n/)){const line=raw.trim();if(!line||line.startsWith("#"))continue;const m=line.match(/^(.+?)\s*[,;:\t]\s*(-?\d+(?:[.,]\d+)?)$/);if(m)out[m[1].trim()]=Number(m[2].replace(",","."));}return out}
+function openAdmin(){$("#adminModal").hidden=false;$("#adminHelp").textContent="";$("#adminPassword").focus();$("#pointsRows").innerHTML=data.teams.map(t=>"<div class=\"point-row\"><label>"+t.manager+"<span>"+t.team+"</span></label><input class=\"manager-points\" data-manager=\""+t.manager+"\" type=\"number\" step=\"0.01\" placeholder=\"Taškai\"></div>").join("");$("#pointsInput").value=""}function collectPointRows(){const out={};document.querySelectorAll(".manager-points").forEach(i=>{if(i.value.trim()!=="")out[i.dataset.manager]=Number(i.value)});return out}function parsePoints(text){const out={};for(const raw of text.split(/\r?\n/)){const line=raw.trim();if(!line||line.startsWith("#"))continue;const m=line.match(/^(.+?)\s*[,;:\t]\s*(-?\d+(?:[.,]\d+)?)$/);if(m)out[m[1].trim()]=Number(m[2].replace(",","."));}return out}
 
 async function savePoints(){
   const password=$("#adminPassword").value.trim();
-  const points=parsePoints($("#pointsInput").value);
+  const points={...collectPointRows(),...parsePoints($("#pointsInput").value)};
   const managers=new Set(data.teams.map(t=>t.manager));
   const missing=data.teams.filter(t=>points[t.manager]===undefined).map(t=>t.manager);
   const unknown=Object.keys(points).filter(k=>!managers.has(k));
@@ -58,7 +58,7 @@ async function savePoints(){
 
 document.addEventListener("click",e=>{
   if(e.target.matches("nav button"))render(e.target.dataset.view);
-  if(e.target.closest("#adminBtn")){$("#adminModal").hidden=false;$("#adminHelp").textContent="";$("#adminPassword").focus()}
+  if(e.target.closest("#adminBtn"))openAdmin();
   if(e.target.id==="closeAdmin")$("#adminModal").hidden=true;
   if(e.target.id==="applyPoints")savePoints();
 });
