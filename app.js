@@ -12,7 +12,7 @@ async function load(){
     data=rows[0].data;
   }catch(e){
     data=await fetch("data/league.json?x="+Date.now()).then(r=>r.json());
-    $("#status").innerHTML="<strong>Naudojama atsarginė versija.</strong> <span>Serverio duomenys laikinai nepasiekiami.</span>";
+    $("#status").innerHTML="<strong>Serverio duomenys nepasiekiami.</strong> <span>Rodoma pradinė versija. Jei išsaugote taškus, po išsaugojimo lentelė turi būti atnaujinta.</span>";
   }
   render("home");
   startClock();
@@ -45,6 +45,7 @@ async function savePoints(){
     const r=await fetch(SUPABASE_URL+"/functions/v1/update-league-points",{method:"POST",headers:{"Content-Type":"application/json",apikey:SUPABASE_KEY},body:JSON.stringify({password,round:round().round,points})});
     const result=await r.json();
     if(!r.ok) throw new Error(result.error||"Nepavyko išsaugoti");
+    if(!result.data?.scores) throw new Error("Serveris negrąžino atnaujintos lentelės.");
     data=result.data;
     $("#adminHelp").textContent="Taškai sėkmingai išsaugoti.";
     $("#adminModal").hidden=true;
