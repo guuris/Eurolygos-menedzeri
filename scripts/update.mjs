@@ -26,43 +26,42 @@ for(const r of data.rounds||[]){
 }
 
 async function getSchedule(){
-  const res=await fetch(apiUrl,{headers:{"User-Agent":"EurolygosMenedzeris/1.0"}});
-  if(!res.ok) throw new Error(`EuroLeague API HTTP ${res.status}`);
-  const payload=await res.json();
-  const games=Array.isArray(payload.data)?payload.data:[];
-  if(games.length<380) throw new Error(`EuroLeague API returned ${games.length} games, expected at least 380`);
-  return games
-    .filter(g=>!g.phaseType?.code || g.phaseType.code==="RS")
-    .map(g=>({g,round:Number(g.round?.round||g.round?.number||g.round)}))
-    .filter(x=>Number.isFinite(x.round)&&x.round>=1&&x.round<=38)
-    .sort((a,b)=>a.round-b.round || String(a.g.date||"").localeCompare(String(b.g.date||"")));
+  const pdfUrl="https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf";
+  const pdfPath="/tmp/euroleague-calendar.pdf";
+  const txtPath="/tmp/euroleague-calendar.txt";
+  const res=await fetch(pdfUrl,{headers:{"User-Agent":"EurolygosMenedzeris/1.0"}});
+  if(!res.ok) throw new Error(`EuroLeague PDF HTTP ${res.status}`);
+  await fs.writeFile(pdfPath,Buffer.from(await res.arrayBuffer()));
+  const {execFileSync}=await import("node:child_process");
+  execFileSync("pdftotext",["-layout",pdfPath,txtPath]);
+  const raw=await fs.readFile(txtPath,"utf8");
+  const aliases=[["CRVENA ZVEZDA MERIDIANBET BELGRADE","CZV"],["ZALGIRIS KAUNAS","ZAL"],["DUBAI BASKETBALL","DUB"],["REAL MADRID","RMA"],["HAPOEL IBI TEL AVIV","HAP"],["FC BAYERN MUNICH","BAY"],["FC BARCELONA","BAR"],["ANADOLU EFES ISTANBUL","EFE"],["KOSNER BASKONIA VITORIA-GASTEIZ","BAS"],["OLYMPIACOS PIRAEUS","OLY"],["LDLC ASVEL VILLEURBANNE","ASV"],["MACCABI RAPYD TEL AVIV","MAC"],["PANATHINAIKOS AKTOR ATHENS","PAN"],["PARIS BASKETBALL","PARI"],["BESIKTAS ISTANBUL","BJK"],["VALENCIA BASKET","VAL"],["FENERBAHCE ISTANBUL","FEN"],["VIRTUS BOLOGNA","VIR"],["PARTIZAN MOZZART BET BELGRADE","PAR"],["ARMANI OLIMPIA MILAN","MIL"]].sort((a,b)=>b[0].length-a[0].length);
+  const games=[];
+  for(const line of raw.split(/\r?\n/).map(x=>x.trim())){
+    const m=line.match(/^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday), (\d{1,2} [A-Za-z]+ \d{4}) (\d{2}:\d{2}) (\d{2}:\d{2}) (.+)$/);
+    if(!m) continue;
+    const date=m[1],time=m[2],matchup=m[4];
+    let homeCode=null,homeName=null;
+    for(const [name,code] of aliases){if(matchup.startsWith(name+" ")){homeName=name;homeCode=code;break;}}
+    if(!homeCode) continue;
+    const awayName=matchup.slice(homeName.length).trim();
+    const away=aliases.find(x=>x[0]===awayName);
+    const homeTeam=teamByCode[homeCode],awayTeam=away&&teamByCode[away[1]];
+    if(!homeTeam||!awayTeam) continue;
+    games.push({homeTeam:homeTeam.team,homeManager:homeTeam.manager,awayTeam:awayTeam.team,awayManager:awayTeam.manager,date:new Date(date).toISOString().slice(0,10),time});
+  }
+  if(games.length!==380) throw new Error(`Official PDF parsed ${games.length} games, expected 380`);
+  return games.map((g,i)=>({round:Math.floor(i/10)+1,g}));
 }
 try{
   try{ data.market=await getMarket(); }catch(e){ console.error("Krepsinis.net rinkos būsena nepavyko:",e.message); }
   const games=await getSchedule();
   const rounds=new Map();
-
-  for(const g of games){
-    if(g.phaseType?.code && g.phaseType.code!=="RS") continue;
-
-    const homeCode=g.local?.club?.tvCode;
-    const awayCode=g.road?.club?.tvCode;
-    const home=teamByCode[homeCode];
-    const away=teamByCode[awayCode];
-    if(!home||!away||!g.round||!g.date) continue;
-
-    if(!rounds.has(g.round)) rounds.set(g.round,[]);
-    const old=oldByKey.get(`${g.round}|${home.manager}|${away.manager}`);
-
-    rounds.get(g.round).push({
-      homeTeam:home.team,
-      homeManager:home.manager,
-      awayTeam:away.team,
-      awayManager:away.manager,
-      time:old?.time||"—",
-      date:g.date
-    });
+  for(const {round,g} of games){
+    if(!rounds.has(round)) rounds.set(round,[]);
+    rounds.get(round).push(g);
   }
+  for(const [round,pairings] of rounds){if(pairings.length!==10) throw new Error(`Round ${round} has ${pairings.length} games, expected 10`);}
 
   const schedule=[...rounds.entries()]
     .sort((a,b)=>a[0]-b[0])
