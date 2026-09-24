@@ -196,7 +196,7 @@
   "scores": {
     "EimantasMi": {
       "round": 1,
-      "managerPoints": 123,
+      "managerPoints": 45,
       "w": 1,
       "l": 0,
       "b": 0,
@@ -205,16 +205,16 @@
     },
     "rytuzaz": {
       "round": 1,
-      "managerPoints": 5,
-      "w": 0,
-      "l": 1,
+      "managerPoints": 65,
+      "w": 1,
+      "l": 0,
       "b": 0,
       "pm": 0,
-      "pts": 0
+      "pts": 3
     },
     "easymano": {
       "round": 1,
-      "managerPoints": 973,
+      "managerPoints": 24,
       "w": 1,
       "l": 0,
       "b": 0,
@@ -223,34 +223,34 @@
     },
     "nerka7777": {
       "round": 1,
-      "managerPoints": 45,
+      "managerPoints": 556,
+      "w": 1,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 4
+    },
+    "Danasbutkus": {
+      "round": 1,
+      "managerPoints": 56,
       "w": 0,
       "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
-    "Danasbutkus": {
-      "round": 1,
-      "managerPoints": 86,
-      "w": 1,
-      "l": 0,
-      "b": 0,
-      "pm": 0,
-      "pts": 3
-    },
     "nero99": {
       "round": 1,
-      "managerPoints": 456,
-      "w": 1,
-      "l": 0,
+      "managerPoints": 33,
+      "w": 0,
+      "l": 1,
       "b": 0,
       "pm": 0,
-      "pts": 3
+      "pts": 0
     },
     "staska123": {
       "round": 1,
-      "managerPoints": 234,
+      "managerPoints": 24,
       "w": 0,
       "l": 1,
       "b": 0,
@@ -259,34 +259,34 @@
     },
     "beisbolas1": {
       "round": 1,
-      "managerPoints": 64,
+      "managerPoints": 78,
+      "w": 1,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 3
+    },
+    "almantas1992": {
+      "round": 1,
+      "managerPoints": 56,
       "w": 0,
       "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
-    "almantas1992": {
-      "round": 1,
-      "managerPoints": 345,
-      "w": 1,
-      "l": 0,
-      "b": 0,
-      "pm": 0,
-      "pts": 3
-    },
     "tomasas9": {
       "round": 1,
-      "managerPoints": 67,
-      "w": 1,
-      "l": 0,
+      "managerPoints": 35,
+      "w": 0,
+      "l": 1,
       "b": 0,
       "pm": 0,
-      "pts": 3
+      "pts": 0
     },
     "endzei1": {
       "round": 1,
-      "managerPoints": 54,
+      "managerPoints": 32,
       "w": 0,
       "l": 1,
       "b": 0,
@@ -295,33 +295,6 @@
     },
     "deivis111": {
       "round": 1,
-      "managerPoints": 43,
-      "w": 0,
-      "l": 1,
-      "b": 0,
-      "pm": 0,
-      "pts": 0
-    },
-    "dzonilexus": {
-      "round": 1,
-      "managerPoints": 34,
-      "w": 0,
-      "l": 1,
-      "b": 0,
-      "pm": 0,
-      "pts": 0
-    },
-    "baudejas7": {
-      "round": 1,
-      "managerPoints": 4545,
-      "w": 1,
-      "l": 0,
-      "b": 0,
-      "pm": 0,
-      "pts": 4
-    },
-    "shmitas": {
-      "round": 1,
       "managerPoints": 53,
       "w": 1,
       "l": 0,
@@ -329,50 +302,77 @@
       "pm": 0,
       "pts": 3
     },
-    "larys": {
+    "dzonilexus": {
       "round": 1,
-      "managerPoints": 455,
+      "managerPoints": 78,
+      "w": 1,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 3
+    },
+    "baudejas7": {
+      "round": 1,
+      "managerPoints": 64,
       "w": 0,
       "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
+    },
+    "shmitas": {
+      "round": 1,
+      "managerPoints": 42,
+      "w": 0,
+      "l": 1,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "larys": {
+      "round": 1,
+      "managerPoints": 89,
+      "w": 1,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 3
     },
     "guuris": {
       "round": 1,
-      "managerPoints": 67,
-      "w": 0,
-      "l": 1,
+      "managerPoints": 75,
+      "w": 1,
+      "l": 0,
       "b": 0,
       "pm": 0,
-      "pts": 0
+      "pts": 3
     },
     "Audriust_4": {
       "round": 1,
-      "managerPoints": 43,
-      "w": 1,
-      "l": 0,
-      "b": 0,
-      "pm": 0,
-      "pts": 3
-    },
-    "vytolas21": {
-      "round": 1,
-      "managerPoints": 544,
+      "managerPoints": 35,
       "w": 0,
       "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
-    "zylee14": {
+    "vytolas21": {
       "round": 1,
-      "managerPoints": 456,
+      "managerPoints": 67,
       "w": 1,
       "l": 0,
       "b": 0,
       "pm": 0,
       "pts": 3
+    },
+    "zylee14": {
+      "round": 1,
+      "managerPoints": 45,
+      "w": 0,
+      "l": 1,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
     }
   },
   "source": {
@@ -388,26 +388,26 @@
   },
   "roundPoints": {
     "1": {
-      "EimantasMi": 123,
-      "rytuzaz": 5,
-      "easymano": 973,
-      "nerka7777": 45,
-      "Danasbutkus": 86,
-      "nero99": 456,
-      "staska123": 234,
-      "beisbolas1": 64,
-      "almantas1992": 345,
-      "tomasas9": 67,
-      "endzei1": 54,
-      "deivis111": 43,
-      "dzonilexus": 34,
-      "baudejas7": 4545,
-      "shmitas": 53,
-      "larys": 455,
-      "guuris": 67,
-      "Audriust_4": 43,
-      "vytolas21": 544,
-      "zylee14": 456
+      "EimantasMi": 45,
+      "rytuzaz": 65,
+      "easymano": 24,
+      "nerka7777": 556,
+      "Danasbutkus": 56,
+      "nero99": 33,
+      "staska123": 24,
+      "beisbolas1": 78,
+      "almantas1992": 56,
+      "tomasas9": 35,
+      "endzei1": 32,
+      "deivis111": 53,
+      "dzonilexus": 78,
+      "baudejas7": 64,
+      "shmitas": 42,
+      "larys": 89,
+      "guuris": 75,
+      "Audriust_4": 35,
+      "vytolas21": 67,
+      "zylee14": 45
     }
   }
 }
