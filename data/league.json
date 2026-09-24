@@ -196,188 +196,188 @@
   "scores": {
     "EimantasMi": {
       "round": 1,
-      "managerPoints": null,
-      "w": 0,
+      "managerPoints": 123,
+      "w": 1,
       "l": 0,
       "b": 0,
       "pm": 0,
-      "pts": 0
+      "pts": 3
     },
     "rytuzaz": {
       "round": 1,
-      "managerPoints": null,
+      "managerPoints": 5,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
     "easymano": {
       "round": 1,
-      "managerPoints": null,
-      "w": 0,
+      "managerPoints": 973,
+      "w": 1,
       "l": 0,
       "b": 0,
       "pm": 0,
-      "pts": 0
+      "pts": 3
     },
     "nerka7777": {
       "round": 1,
-      "managerPoints": null,
+      "managerPoints": 45,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
     "Danasbutkus": {
       "round": 1,
-      "managerPoints": null,
-      "w": 0,
+      "managerPoints": 86,
+      "w": 1,
       "l": 0,
       "b": 0,
       "pm": 0,
-      "pts": 0
+      "pts": 3
     },
     "nero99": {
       "round": 1,
-      "managerPoints": null,
-      "w": 0,
+      "managerPoints": 456,
+      "w": 1,
       "l": 0,
       "b": 0,
       "pm": 0,
-      "pts": 0
+      "pts": 3
     },
     "staska123": {
       "round": 1,
-      "managerPoints": null,
+      "managerPoints": 234,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
     "beisbolas1": {
       "round": 1,
-      "managerPoints": null,
+      "managerPoints": 64,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
     "almantas1992": {
       "round": 1,
-      "managerPoints": null,
-      "w": 0,
+      "managerPoints": 345,
+      "w": 1,
       "l": 0,
       "b": 0,
       "pm": 0,
-      "pts": 0
+      "pts": 3
     },
     "tomasas9": {
       "round": 1,
-      "managerPoints": null,
-      "w": 0,
+      "managerPoints": 67,
+      "w": 1,
       "l": 0,
       "b": 0,
       "pm": 0,
-      "pts": 0
+      "pts": 3
     },
     "endzei1": {
       "round": 1,
-      "managerPoints": null,
+      "managerPoints": 54,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
     "deivis111": {
       "round": 1,
-      "managerPoints": null,
+      "managerPoints": 43,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
     "dzonilexus": {
       "round": 1,
-      "managerPoints": null,
+      "managerPoints": 34,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
     "baudejas7": {
       "round": 1,
-      "managerPoints": null,
-      "w": 0,
+      "managerPoints": 4545,
+      "w": 1,
       "l": 0,
       "b": 0,
       "pm": 0,
-      "pts": 0
+      "pts": 4
     },
     "shmitas": {
       "round": 1,
-      "managerPoints": null,
-      "w": 0,
+      "managerPoints": 53,
+      "w": 1,
       "l": 0,
       "b": 0,
       "pm": 0,
-      "pts": 0
+      "pts": 3
     },
     "larys": {
       "round": 1,
-      "managerPoints": null,
+      "managerPoints": 455,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
     "guuris": {
       "round": 1,
-      "managerPoints": null,
+      "managerPoints": 67,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
     "Audriust_4": {
       "round": 1,
-      "managerPoints": null,
-      "w": 0,
+      "managerPoints": 43,
+      "w": 1,
       "l": 0,
       "b": 0,
       "pm": 0,
-      "pts": 0
+      "pts": 3
     },
     "vytolas21": {
       "round": 1,
-      "managerPoints": null,
+      "managerPoints": 544,
       "w": 0,
-      "l": 0,
+      "l": 1,
       "b": 0,
       "pm": 0,
       "pts": 0
     },
     "zylee14": {
       "round": 1,
-      "managerPoints": null,
-      "w": 0,
+      "managerPoints": 456,
+      "w": 1,
       "l": 0,
       "b": 0,
       "pm": 0,
-      "pts": 0
+      "pts": 3
     }
   },
   "source": {
     "schedule": "Krepsinis.net Eurolygos tvarkaraštis",
-    "managerScores": "Dar neprijungta"
+    "managerScores": "GitHub • administratoriaus įvesti taškai"
   },
   "market": {
     "status": "open",
@@ -385,5 +385,29 @@
     "opensAt": null,
     "source": "Krepsinis.net Eurolygos menedžeris",
     "lastChecked": "2026-09-24T00:00:00Z"
+  },
+  "roundPoints": {
+    "1": {
+      "EimantasMi": 123,
+      "rytuzaz": 5,
+      "easymano": 973,
+      "nerka7777": 45,
+      "Danasbutkus": 86,
+      "nero99": 456,
+      "staska123": 234,
+      "beisbolas1": 64,
+      "almantas1992": 345,
+      "tomasas9": 67,
+      "endzei1": 54,
+      "deivis111": 43,
+      "dzonilexus": 34,
+      "baudejas7": 4545,
+      "shmitas": 53,
+      "larys": 455,
+      "guuris": 67,
+      "Audriust_4": 43,
+      "vytolas21": 544,
+      "zylee14": 456
+    }
   }
 }
