@@ -5,6 +5,30 @@ const issueAuthor=process.env.ISSUE_AUTHOR||"";
 if(issueAuthor!=="guuris") throw new Error("Neleistinas autorius.");
 
 const data=JSON.parse(fs.readFileSync("data/league.json","utf8"));
+const title=process.env.ISSUE_TITLE||"";
+const currentRound=String(data.rounds[0].round);
+
+if(title.startsWith("[ANULIUOTI]")){
+  data.roundPoints=data.roundPoints||{};
+  delete data.roundPoints[currentRound];
+  data.scores={};
+  for(const t of data.teams) data.scores[t.manager]={round:data.rounds[0].round,managerPoints:null,w:0,l:0,b:0,pm:0,pts:0};
+  for(const r of data.rounds){
+    const rp=data.roundPoints[String(r.round)];
+    if(!rp) continue;
+    for(const g of r.pairings){
+      const a=Number(rp[g.homeManager]),b=Number(rp[g.awayManager]);
+      if(!Number.isFinite(a)||!Number.isFinite(b)) continue;
+      if(a>b){data.scores[g.homeManager].w++;data.scores[g.awayManager].l++;data.scores[g.homeManager].pts+=3}
+      else if(b>a){data.scores[g.awayManager].w++;data.scores[g.homeManager].l++;data.scores[g.awayManager].pts+=3}
+      else{data.scores[g.homeManager].w++;data.scores[g.awayManager].l++;data.scores[g.homeManager].pts+=3}
+    }
+  }
+  data.source.managerScores="GitHub • administratoriaus įvesti taškai";
+  fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"\n");
+  process.exit(0);
+}
+
 const points={};
 for(const line of issueBody.split(/\r?\n/)){
   const m=line.trim().match(/^(.+?)\s*,\s*(-?\d+(?:[.,]\d+)?)$/);
