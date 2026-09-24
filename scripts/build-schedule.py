@@ -28,16 +28,24 @@ s=" ".join(p.parts)
 s=re.sub(r"\s+"," ",html.unescape(s))
 
 games=[]
+weekdays=r"(?:Lunes|Martes|Miércoles|Jueves|Viernes|Sábado|Domingo)"
 for m in re.finditer(r"Jornada\s+(\d+)(.*?)(?=Jornada\s+\d+|$)",s,re.I):
     rnd=int(m.group(1)); block=m.group(2)
     if not 1<=rnd<=38: continue
-    rx=re.compile(r"(\d{1,2}) de ([a-záéíóú]+) de (2026|2027),\s*(\d{1,2}:\d{2}) h:\s*(.*?)\s+[–-]\s+(.*?)(?=\s+(?:Lunes|Martes|Miércoles|Jueves|Viernes|Sábado|Domingo)\s+\d{1,2} de [a-záéíóú]+ de (?:2026|2027),\s*\d{1,2}:\d{2} h:|\s+\*\s*\*|\s*$)",re.I)
-    for g in rx.finditer(block):
-        day,mon,year,t,home,away=g.groups()
-        home=home.strip(); away=away.strip()
-        if home not in TEAM_MAP or away not in TEAM_MAP: continue
-        dt=datetime(int(year),MONTH[mon.lower()],int(day))
-        games.append({"round":rnd,"home":TEAM_MAP[home],"away":TEAM_MAP[away],"date":dt.strftime("%Y-%m-%d"),"time":t})
+    parts=re.split(r"(?="+weekdays+r"\s+\d{1,2} de [a-záéíóú]+ de (?:2026|2027),\s*\d{1,2}:\d{2} h:)",block,re.I)
+    for part in parts:
+        dm=re.search(weekdays+r"\s+(\d{1,2}) de ([a-záéíóú]+) de (2026|2027),\s*(\d{1,2}:\d{2}) h:\s*",part,re.I)
+        if not dm: continue
+        rest=part[dm.end():]
+        found=[]
+        for name,code in TEAM_MAP.items():
+            pos=rest.find(name)
+            if pos>=0: found.append((pos,name,code))
+        found.sort()
+        if len(found)<2: continue
+        _,home,hc=found[0]; _,away,ac=found[1]
+        dt=datetime(int(dm.group(3)),MONTH[dm.group(2).lower()],int(dm.group(1)))
+        games.append({"round":rnd,"home":hc,"away":ac,"date":dt.strftime("%Y-%m-%d"),"time":dm.group(4)})
 
 if len(games)!=380 or {r:sum(x["round"]==r for x in games) for r in range(1,39)}!={r:10 for r in range(1,39)}:
     counts={r:sum(x["round"]==r for x in games) for r in range(1,39)}
