@@ -111,62 +111,82 @@
       "end": "2026-09-25",
       "pairings": [
         {
-          "home": "DUB",
-          "away": "RMA",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2026-09-24",
           "time": "16:00"
         },
         {
-          "home": "HAP",
-          "away": "BAY",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2026-09-24",
           "time": "16:00"
         },
         {
-          "home": "CZV",
-          "away": "ZAL",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2026-09-24",
           "time": "18:00"
         },
         {
-          "home": "PAN",
-          "away": "PARI",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2026-09-24",
           "time": "18:15"
         },
         {
-          "home": "BAR",
-          "away": "EFE",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2026-09-24",
           "time": "18:30"
         },
         {
-          "home": "BAS",
-          "away": "OLY",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2026-09-24",
           "time": "18:30"
         },
         {
-          "home": "ASV",
-          "away": "MAC",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2026-09-24",
           "time": "18:45"
         },
         {
-          "home": "BJK",
-          "away": "VAL",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2026-09-25",
           "time": "17:00"
         },
         {
-          "home": "FEN",
-          "away": "VIR",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2026-09-25",
           "time": "17:45"
         },
         {
-          "home": "PAR",
-          "away": "MIL",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2026-09-25",
           "time": "18:45"
         }
@@ -178,62 +198,82 @@
       "end": "2026-09-30",
       "pairings": [
         {
-          "home": "DUB",
-          "away": "BAR",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2026-09-29",
           "time": "16:00"
         },
         {
-          "home": "EFE",
-          "away": "RMA",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2026-09-29",
           "time": "17:00"
         },
         {
-          "home": "ZAL",
-          "away": "OLY",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2026-09-29",
           "time": "17:00"
         },
         {
-          "home": "FEN",
-          "away": "BAY",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2026-09-29",
           "time": "17:45"
         },
         {
-          "home": "CZV",
-          "away": "HAP",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2026-09-29",
           "time": "18:00"
         },
         {
-          "home": "MIL",
-          "away": "VIR",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2026-09-29",
           "time": "18:30"
         },
         {
-          "home": "VAL",
-          "away": "BAS",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2026-09-29",
           "time": "18:30"
         },
         {
-          "home": "PARI",
-          "away": "PAR",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2026-09-29",
           "time": "18:45"
         },
         {
-          "home": "MAC",
-          "away": "BJK",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2026-09-30",
           "time": "18:05"
         },
         {
-          "home": "PAN",
-          "away": "ASV",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2026-09-30",
           "time": "18:15"
         }
@@ -245,62 +285,82 @@
       "end": "2026-10-02",
       "pairings": [
         {
-          "home": "HAP",
-          "away": "RMA",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2026-10-01",
           "time": "16:00"
         },
         {
-          "home": "CZV",
-          "away": "EFE",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2026-10-01",
           "time": "18:00"
         },
         {
-          "home": "VIR",
-          "away": "OLY",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2026-10-01",
           "time": "18:30"
         },
         {
-          "home": "PARI",
-          "away": "ZAL",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2026-10-01",
           "time": "18:45"
         },
         {
-          "home": "BJK",
-          "away": "BAR",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2026-10-02",
           "time": "17:00"
         },
         {
-          "home": "FEN",
-          "away": "DUB",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2026-10-02",
           "time": "17:45"
         },
         {
-          "home": "ASV",
-          "away": "VAL",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2026-10-02",
           "time": "18:00"
         },
         {
-          "home": "BAY",
-          "away": "PAR",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2026-10-02",
           "time": "18:00"
         },
         {
-          "home": "PAN",
-          "away": "MAC",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2026-10-02",
           "time": "18:15"
         },
         {
-          "home": "BAS",
-          "away": "MIL",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2026-10-02",
           "time": "18:30"
         }
@@ -312,62 +372,82 @@
       "end": "2026-10-09",
       "pairings": [
         {
-          "home": "PARI",
-          "away": "ASV",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2026-10-07",
           "time": "18:45"
         },
         {
-          "home": "DUB",
-          "away": "CZV",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2026-10-08",
           "time": "16:00"
         },
         {
-          "home": "MAC",
-          "away": "MIL",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2026-10-08",
           "time": "16:00"
         },
         {
-          "home": "BAY",
-          "away": "VIR",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2026-10-08",
           "time": "18:00"
         },
         {
-          "home": "PAN",
-          "away": "FEN",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2026-10-08",
           "time": "18:15"
         },
         {
-          "home": "VAL",
-          "away": "HAP",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2026-10-08",
           "time": "18:30"
         },
         {
-          "home": "RMA",
-          "away": "PAR",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2026-10-08",
           "time": "18:45"
         },
         {
-          "home": "OLY",
-          "away": "EFE",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2026-10-09",
           "time": "18:15"
         },
         {
-          "home": "BAR",
-          "away": "ZAL",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2026-10-09",
           "time": "18:30"
         },
         {
-          "home": "BAS",
-          "away": "BJK",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2026-10-09",
           "time": "18:30"
         }
@@ -379,62 +459,82 @@
       "end": "2026-10-14",
       "pairings": [
         {
-          "home": "FEN",
-          "away": "ZAL",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2026-10-13",
           "time": "17:45"
         },
         {
-          "home": "ASV",
-          "away": "CZV",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2026-10-13",
           "time": "18:00"
         },
         {
-          "home": "BAR",
-          "away": "MAC",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2026-10-13",
           "time": "18:30"
         },
         {
-          "home": "BAS",
-          "away": "DUB",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2026-10-13",
           "time": "18:30"
         },
         {
-          "home": "MIL",
-          "away": "RMA",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2026-10-13",
           "time": "18:30"
         },
         {
-          "home": "PAR",
-          "away": "PAN",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2026-10-13",
           "time": "18:30"
         },
         {
-          "home": "VAL",
-          "away": "OLY",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2026-10-13",
           "time": "19:00"
         },
         {
-          "home": "HAP",
-          "away": "BJK",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2026-10-14",
           "time": "16:00"
         },
         {
-          "home": "EFE",
-          "away": "BAY",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2026-10-14",
           "time": "17:30"
         },
         {
-          "home": "PARI",
-          "away": "VIR",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2026-10-14",
           "time": "18:45"
         }
@@ -446,62 +546,82 @@
       "end": "2026-10-16",
       "pairings": [
         {
-          "home": "FEN",
-          "away": "PAR",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2026-10-15",
           "time": "17:45"
         },
         {
-          "home": "MIL",
-          "away": "DUB",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2026-10-15",
           "time": "18:30"
         },
         {
-          "home": "VAL",
-          "away": "MAC",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2026-10-15",
           "time": "18:30"
         },
         {
-          "home": "RMA",
-          "away": "ASV",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2026-10-15",
           "time": "19:00"
         },
         {
-          "home": "BJK",
-          "away": "BAY",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2026-10-16",
           "time": "17:00"
         },
         {
-          "home": "ZAL",
-          "away": "EFE",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2026-10-16",
           "time": "17:00"
         },
         {
-          "home": "CZV",
-          "away": "PARI",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2026-10-16",
           "time": "18:00"
         },
         {
-          "home": "PAN",
-          "away": "HAP",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2026-10-16",
           "time": "18:15"
         },
         {
-          "home": "BAR",
-          "away": "OLY",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2026-10-16",
           "time": "18:30"
         },
         {
-          "home": "VIR",
-          "away": "BAS",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2026-10-16",
           "time": "18:30"
         }
@@ -513,62 +633,82 @@
       "end": "2026-10-23",
       "pairings": [
         {
-          "home": "HAP",
-          "away": "VIR",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2026-10-21",
           "time": "16:00"
         },
         {
-          "home": "EFE",
-          "away": "BJK",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2026-10-22",
           "time": "17:30"
         },
         {
-          "home": "BAY",
-          "away": "DUB",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2026-10-22",
           "time": "18:00"
         },
         {
-          "home": "MAC",
-          "away": "RMA",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2026-10-22",
           "time": "18:05"
         },
         {
-          "home": "PAN",
-          "away": "BAS",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2026-10-22",
           "time": "18:15"
         },
         {
-          "home": "MIL",
-          "away": "BAR",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2026-10-22",
           "time": "18:30"
         },
         {
-          "home": "PAR",
-          "away": "CZV",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2026-10-22",
           "time": "18:45"
         },
         {
-          "home": "ZAL",
-          "away": "ASV",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2026-10-23",
           "time": "17:00"
         },
         {
-          "home": "OLY",
-          "away": "FEN",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2026-10-23",
           "time": "18:15"
         },
         {
-          "home": "PARI",
-          "away": "VAL",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2026-10-23",
           "time": "18:45"
         }
@@ -580,62 +720,82 @@
       "end": "2026-10-28",
       "pairings": [
         {
-          "home": "DUB",
-          "away": "PARI",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2026-10-27",
           "time": "16:00"
         },
         {
-          "home": "BAY",
-          "away": "BAR",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2026-10-27",
           "time": "19:00"
         },
         {
-          "home": "CZV",
-          "away": "MAC",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2026-10-27",
           "time": "19:00"
         },
         {
-          "home": "PAN",
-          "away": "MIL",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2026-10-27",
           "time": "19:15"
         },
         {
-          "home": "VAL",
-          "away": "FEN",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2026-10-27",
           "time": "19:30"
         },
         {
-          "home": "BAS",
-          "away": "RMA",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2026-10-27",
           "time": "20:00"
         },
         {
-          "home": "HAP",
-          "away": "EFE",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2026-10-28",
           "time": "18:00"
         },
         {
-          "home": "BJK",
-          "away": "OLY",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2026-10-28",
           "time": "18:30"
         },
         {
-          "home": "ASV",
-          "away": "PAR",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2026-10-28",
           "time": "19:00"
         },
         {
-          "home": "VIR",
-          "away": "ZAL",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2026-10-28",
           "time": "19:30"
         }
@@ -647,62 +807,82 @@
       "end": "2026-10-30",
       "pairings": [
         {
-          "home": "CZV",
-          "away": "BAY",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2026-10-29",
           "time": "19:00"
         },
         {
-          "home": "MAC",
-          "away": "PARI",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2026-10-29",
           "time": "19:05"
         },
         {
-          "home": "RMA",
-          "away": "FEN",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2026-10-29",
           "time": "19:45"
         },
         {
-          "home": "DUB",
-          "away": "HAP",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2026-10-30",
           "time": "16:00"
         },
         {
-          "home": "EFE",
-          "away": "PAN",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2026-10-30",
           "time": "17:30"
         },
         {
-          "home": "ZAL",
-          "away": "PAR",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2026-10-30",
           "time": "18:00"
         },
         {
-          "home": "ASV",
-          "away": "BAS",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2026-10-30",
           "time": "19:00"
         },
         {
-          "home": "OLY",
-          "away": "MIL",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2026-10-30",
           "time": "19:15"
         },
         {
-          "home": "BAR",
-          "away": "VAL",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2026-10-30",
           "time": "19:30"
         },
         {
-          "home": "VIR",
-          "away": "BJK",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2026-10-30",
           "time": "19:30"
         }
@@ -714,62 +894,82 @@
       "end": "2026-11-06",
       "pairings": [
         {
-          "home": "RMA",
-          "away": "PAN",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2026-11-04",
           "time": "19:45"
         },
         {
-          "home": "EFE",
-          "away": "PARI",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2026-11-05",
           "time": "17:15"
         },
         {
-          "home": "FEN",
-          "away": "BAS",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2026-11-05",
           "time": "18:00"
         },
         {
-          "home": "HAP",
-          "away": "BAR",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2026-11-05",
           "time": "18:00"
         },
         {
-          "home": "ASV",
-          "away": "BAY",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2026-11-05",
           "time": "19:00"
         },
         {
-          "home": "MIL",
-          "away": "VAL",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2026-11-05",
           "time": "19:30"
         },
         {
-          "home": "BJK",
-          "away": "ZAL",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2026-11-06",
           "time": "17:00"
         },
         {
-          "home": "OLY",
-          "away": "CZV",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2026-11-06",
           "time": "19:15"
         },
         {
-          "home": "VIR",
-          "away": "DUB",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2026-11-06",
           "time": "19:30"
         },
         {
-          "home": "PAR",
-          "away": "MAC",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2026-11-06",
           "time": "19:45"
         }
@@ -781,62 +981,82 @@
       "end": "2026-11-13",
       "pairings": [
         {
-          "home": "PAR",
-          "away": "BAS",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2026-11-11",
           "time": "19:45"
         },
         {
-          "home": "PARI",
-          "away": "FEN",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2026-11-11",
           "time": "19:45"
         },
         {
-          "home": "MAC",
-          "away": "HAP",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2026-11-12",
           "time": "19:05"
         },
         {
-          "home": "OLY",
-          "away": "DUB",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2026-11-12",
           "time": "19:15"
         },
         {
-          "home": "MIL",
-          "away": "ZAL",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2026-11-12",
           "time": "19:30"
         },
         {
-          "home": "VAL",
-          "away": "BAY",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2026-11-12",
           "time": "19:30"
         },
         {
-          "home": "RMA",
-          "away": "CZV",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2026-11-12",
           "time": "20:00"
         },
         {
-          "home": "EFE",
-          "away": "VIR",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2026-11-13",
           "time": "17:30"
         },
         {
-          "home": "PAN",
-          "away": "BAR",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2026-11-13",
           "time": "19:15"
         },
         {
-          "home": "ASV",
-          "away": "BJK",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2026-11-13",
           "time": "19:30"
         }
@@ -848,62 +1068,82 @@
       "end": "2026-11-18",
       "pairings": [
         {
-          "home": "DUB",
-          "away": "EFE",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2026-11-17",
           "time": "16:00"
         },
         {
-          "home": "MAC",
-          "away": "OLY",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2026-11-17",
           "time": "17:00"
         },
         {
-          "home": "FEN",
-          "away": "ASV",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2026-11-17",
           "time": "18:00"
         },
         {
-          "home": "ZAL",
-          "away": "BAY",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2026-11-17",
           "time": "18:00"
         },
         {
-          "home": "BAR",
-          "away": "PARI",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2026-11-17",
           "time": "19:30"
         },
         {
-          "home": "BAS",
-          "away": "HAP",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2026-11-17",
           "time": "19:30"
         },
         {
-          "home": "MIL",
-          "away": "CZV",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2026-11-17",
           "time": "19:30"
         },
         {
-          "home": "PAR",
-          "away": "VAL",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2026-11-17",
           "time": "19:45"
         },
         {
-          "home": "VIR",
-          "away": "PAN",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2026-11-17",
           "time": "20:00"
         },
         {
-          "home": "BJK",
-          "away": "RMA",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2026-11-18",
           "time": "17:00"
         }
@@ -915,62 +1155,82 @@
       "end": "2026-11-20",
       "pairings": [
         {
-          "home": "MAC",
-          "away": "DUB",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2026-11-19",
           "time": "17:30"
         },
         {
-          "home": "ZAL",
-          "away": "PAN",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2026-11-19",
           "time": "18:00"
         },
         {
-          "home": "BAY",
-          "away": "BAS",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2026-11-19",
           "time": "19:00"
         },
         {
-          "home": "MIL",
-          "away": "FEN",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2026-11-19",
           "time": "19:30"
         },
         {
-          "home": "PARI",
-          "away": "HAP",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2026-11-19",
           "time": "19:45"
         },
         {
-          "home": "VAL",
-          "away": "VIR",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2026-11-19",
           "time": "20:00"
         },
         {
-          "home": "EFE",
-          "away": "ASV",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2026-11-20",
           "time": "17:30"
         },
         {
-          "home": "OLY",
-          "away": "RMA",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2026-11-20",
           "time": "19:15"
         },
         {
-          "home": "BAR",
-          "away": "CZV",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2026-11-20",
           "time": "19:30"
         },
         {
-          "home": "PAR",
-          "away": "BJK",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2026-11-20",
           "time": "19:45"
         }
@@ -982,62 +1242,82 @@
       "end": "2026-11-25",
       "pairings": [
         {
-          "home": "BJK",
-          "away": "PARI",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2026-11-24",
           "time": "17:00"
         },
         {
-          "home": "CZV",
-          "away": "VIR",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2026-11-24",
           "time": "18:00"
         },
         {
-          "home": "BAY",
-          "away": "MAC",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2026-11-24",
           "time": "19:00"
         },
         {
-          "home": "VAL",
-          "away": "PAN",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2026-11-24",
           "time": "19:30"
         },
         {
-          "home": "ASV",
-          "away": "MIL",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2026-11-24",
           "time": "19:45"
         },
         {
-          "home": "BAR",
-          "away": "FEN",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2026-11-24",
           "time": "20:00"
         },
         {
-          "home": "DUB",
-          "away": "PAR",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2026-11-25",
           "time": "16:00"
         },
         {
-          "home": "OLY",
-          "away": "HAP",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2026-11-25",
           "time": "19:15"
         },
         {
-          "home": "BAS",
-          "away": "EFE",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2026-11-25",
           "time": "19:30"
         },
         {
-          "home": "RMA",
-          "away": "ZAL",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2026-11-25",
           "time": "19:45"
         }
@@ -1049,62 +1329,82 @@
       "end": "2026-12-04",
       "pairings": [
         {
-          "home": "EFE",
-          "away": "VAL",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2026-12-03",
           "time": "17:30"
         },
         {
-          "home": "FEN",
-          "away": "CZV",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2026-12-03",
           "time": "17:45"
         },
         {
-          "home": "HAP",
-          "away": "MIL",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2026-12-03",
           "time": "18:00"
         },
         {
-          "home": "BAY",
-          "away": "PARI",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2026-12-03",
           "time": "19:00"
         },
         {
-          "home": "RMA",
-          "away": "BAR",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2026-12-03",
           "time": "19:45"
         },
         {
-          "home": "BJK",
-          "away": "PAN",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2026-12-04",
           "time": "17:00"
         },
         {
-          "home": "ZAL",
-          "away": "DUB",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2026-12-04",
           "time": "18:00"
         },
         {
-          "home": "OLY",
-          "away": "ASV",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2026-12-04",
           "time": "19:15"
         },
         {
-          "home": "BAS",
-          "away": "MAC",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2026-12-04",
           "time": "19:30"
         },
         {
-          "home": "VIR",
-          "away": "PAR",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2026-12-04",
           "time": "19:30"
         }
@@ -1116,62 +1416,82 @@
       "end": "2026-12-11",
       "pairings": [
         {
-          "home": "FEN",
-          "away": "EFE",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2026-12-10",
           "time": "17:45"
         },
         {
-          "home": "HAP",
-          "away": "ASV",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2026-12-10",
           "time": "18:00"
         },
         {
-          "home": "ZAL",
-          "away": "BAS",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2026-12-10",
           "time": "18:00"
         },
         {
-          "home": "MIL",
-          "away": "BAY",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2026-12-10",
           "time": "19:30"
         },
         {
-          "home": "VAL",
-          "away": "CZV",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2026-12-10",
           "time": "19:30"
         },
         {
-          "home": "PARI",
-          "away": "RMA",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2026-12-10",
           "time": "19:45"
         },
         {
-          "home": "DUB",
-          "away": "BJK",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2026-12-11",
           "time": "16:00"
         },
         {
-          "home": "PAN",
-          "away": "OLY",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2026-12-11",
           "time": "19:15"
         },
         {
-          "home": "VIR",
-          "away": "MAC",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2026-12-11",
           "time": "19:30"
         },
         {
-          "home": "PAR",
-          "away": "BAR",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2026-12-11",
           "time": "19:45"
         }
@@ -1183,62 +1503,82 @@
       "end": "2026-12-16",
       "pairings": [
         {
-          "home": "EFE",
-          "away": "PAR",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2026-12-15",
           "time": "17:30"
         },
         {
-          "home": "FEN",
-          "away": "HAP",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2026-12-15",
           "time": "17:45"
         },
         {
-          "home": "VAL",
-          "away": "DUB",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2026-12-15",
           "time": "19:30"
         },
         {
-          "home": "VIR",
-          "away": "ASV",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2026-12-15",
           "time": "19:30"
         },
         {
-          "home": "PARI",
-          "away": "OLY",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2026-12-15",
           "time": "19:45"
         },
         {
-          "home": "RMA",
-          "away": "BAY",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2026-12-15",
           "time": "19:45"
         },
         {
-          "home": "MAC",
-          "away": "ZAL",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2026-12-15",
           "time": "20:00"
         },
         {
-          "home": "BJK",
-          "away": "MIL",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2026-12-16",
           "time": "17:00"
         },
         {
-          "home": "PAN",
-          "away": "CZV",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2026-12-16",
           "time": "19:15"
         },
         {
-          "home": "BAS",
-          "away": "BAR",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2026-12-16",
           "time": "19:30"
         }
@@ -1250,62 +1590,82 @@
       "end": "2026-12-18",
       "pairings": [
         {
-          "home": "FEN",
-          "away": "MAC",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2026-12-17",
           "time": "17:45"
         },
         {
-          "home": "HAP",
-          "away": "ZAL",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2026-12-17",
           "time": "18:00"
         },
         {
-          "home": "ASV",
-          "away": "DUB",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2026-12-17",
           "time": "19:00"
         },
         {
-          "home": "RMA",
-          "away": "VAL",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2026-12-17",
           "time": "19:45"
         },
         {
-          "home": "EFE",
-          "away": "MIL",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2026-12-18",
           "time": "17:30"
         },
         {
-          "home": "OLY",
-          "away": "PAR",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2026-12-18",
           "time": "18:30"
         },
         {
-          "home": "BAY",
-          "away": "PAN",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2026-12-18",
           "time": "19:00"
         },
         {
-          "home": "BAS",
-          "away": "PARI",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2026-12-18",
           "time": "19:30"
         },
         {
-          "home": "CZV",
-          "away": "BJK",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2026-12-18",
           "time": "19:30"
         },
         {
-          "home": "BAR",
-          "away": "VIR",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2026-12-18",
           "time": "19:45"
         }
@@ -1317,62 +1677,82 @@
       "end": "2026-12-23",
       "pairings": [
         {
-          "home": "BJK",
-          "away": "FEN",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2026-12-22",
           "time": "17:00"
         },
         {
-          "home": "HAP",
-          "away": "PAR",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2026-12-22",
           "time": "18:00"
         },
         {
-          "home": "ASV",
-          "away": "BAR",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2026-12-22",
           "time": "19:00"
         },
         {
-          "home": "BAY",
-          "away": "OLY",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2026-12-22",
           "time": "19:00"
         },
         {
-          "home": "VIR",
-          "away": "RMA",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2026-12-22",
           "time": "19:30"
         },
         {
-          "home": "DUB",
-          "away": "PAN",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2026-12-23",
           "time": "16:00"
         },
         {
-          "home": "ZAL",
-          "away": "VAL",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2026-12-23",
           "time": "18:00"
         },
         {
-          "home": "CZV",
-          "away": "BAS",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2026-12-23",
           "time": "19:00"
         },
         {
-          "home": "MAC",
-          "away": "EFE",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2026-12-23",
           "time": "19:05"
         },
         {
-          "home": "MIL",
-          "away": "PARI",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2026-12-23",
           "time": "19:30"
         }
@@ -1384,62 +1764,82 @@
       "end": "2026-12-30",
       "pairings": [
         {
-          "home": "FEN",
-          "away": "PAN",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2026-12-29",
           "time": "17:45"
         },
         {
-          "home": "HAP",
-          "away": "MAC",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2026-12-29",
           "time": "18:00"
         },
         {
-          "home": "BAS",
-          "away": "VAL",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2026-12-29",
           "time": "19:30"
         },
         {
-          "home": "PAR",
-          "away": "ZAL",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2026-12-29",
           "time": "19:45"
         },
         {
-          "home": "RMA",
-          "away": "DUB",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2026-12-29",
           "time": "20:00"
         },
         {
-          "home": "EFE",
-          "away": "BAR",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2026-12-30",
           "time": "17:30"
         },
         {
-          "home": "ASV",
-          "away": "OLY",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2026-12-30",
           "time": "19:00"
         },
         {
-          "home": "BAY",
-          "away": "BJK",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2026-12-30",
           "time": "19:00"
         },
         {
-          "home": "VIR",
-          "away": "MIL",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2026-12-30",
           "time": "19:30"
         },
         {
-          "home": "PARI",
-          "away": "CZV",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2026-12-30",
           "time": "19:45"
         }
@@ -1451,62 +1851,82 @@
       "end": "2027-01-08",
       "pairings": [
         {
-          "home": "BAR",
-          "away": "BJK",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2027-01-06",
           "time": "19:30"
         },
         {
-          "home": "MAC",
-          "away": "PAN",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2027-01-07",
           "time": "17:00"
         },
         {
-          "home": "EFE",
-          "away": "FEN",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2027-01-07",
           "time": "17:30"
         },
         {
-          "home": "ZAL",
-          "away": "PARI",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2027-01-07",
           "time": "18:00"
         },
         {
-          "home": "MIL",
-          "away": "HAP",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2027-01-07",
           "time": "19:30"
         },
         {
-          "home": "VAL",
-          "away": "PAR",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2027-01-07",
           "time": "19:30"
         },
         {
-          "home": "RMA",
-          "away": "OLY",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2027-01-07",
           "time": "19:45"
         },
         {
-          "home": "DUB",
-          "away": "BAY",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2027-01-08",
           "time": "16:00"
         },
         {
-          "home": "CZV",
-          "away": "ASV",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2027-01-08",
           "time": "19:00"
         },
         {
-          "home": "BAS",
-          "away": "VIR",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2027-01-08",
           "time": "19:30"
         }
@@ -1518,62 +1938,82 @@
       "end": "2027-01-13",
       "pairings": [
         {
-          "home": "DUB",
-          "away": "FEN",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2027-01-12",
           "time": "16:00"
         },
         {
-          "home": "HAP",
-          "away": "PARI",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2027-01-12",
           "time": "17:00"
         },
         {
-          "home": "ASV",
-          "away": "ZAL",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2027-01-12",
           "time": "19:00"
         },
         {
-          "home": "CZV",
-          "away": "RMA",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2027-01-12",
           "time": "19:00"
         },
         {
-          "home": "PAN",
-          "away": "VAL",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2027-01-12",
           "time": "19:15"
         },
         {
-          "home": "BAR",
-          "away": "MIL",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2027-01-12",
           "time": "19:30"
         },
         {
-          "home": "MAC",
-          "away": "BAY",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2027-01-12",
           "time": "19:30"
         },
         {
-          "home": "VIR",
-          "away": "EFE",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2027-01-12",
           "time": "19:30"
         },
         {
-          "home": "BJK",
-          "away": "PAR",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2027-01-13",
           "time": "17:00"
         },
         {
-          "home": "OLY",
-          "away": "BAS",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2027-01-13",
           "time": "19:15"
         }
@@ -1585,62 +2025,82 @@
       "end": "2027-01-15",
       "pairings": [
         {
-          "home": "HAP",
-          "away": "VAL",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2027-01-14",
           "time": "18:00"
         },
         {
-          "home": "ZAL",
-          "away": "CZV",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2027-01-14",
           "time": "18:00"
         },
         {
-          "home": "PAN",
-          "away": "BAY",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2027-01-14",
           "time": "19:15"
         },
         {
-          "home": "MIL",
-          "away": "ASV",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2027-01-14",
           "time": "19:30"
         },
         {
-          "home": "RMA",
-          "away": "EFE",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2027-01-14",
           "time": "19:45"
         },
         {
-          "home": "DUB",
-          "away": "MAC",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2027-01-15",
           "time": "16:00"
         },
         {
-          "home": "BJK",
-          "away": "BAS",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2027-01-15",
           "time": "17:00"
         },
         {
-          "home": "OLY",
-          "away": "PARI",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2027-01-15",
           "time": "19:15"
         },
         {
-          "home": "VIR",
-          "away": "BAR",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2027-01-15",
           "time": "19:30"
         },
         {
-          "home": "PAR",
-          "away": "FEN",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2027-01-15",
           "time": "19:45"
         }
@@ -1652,62 +2112,82 @@
       "end": "2027-01-22",
       "pairings": [
         {
-          "home": "HAP",
-          "away": "PAN",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2027-01-21",
           "time": "17:00"
         },
         {
-          "home": "FEN",
-          "away": "BJK",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2027-01-21",
           "time": "17:45"
         },
         {
-          "home": "BAY",
-          "away": "MIL",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2027-01-21",
           "time": "19:00"
         },
         {
-          "home": "PAR",
-          "away": "OLY",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2027-01-21",
           "time": "19:45"
         },
         {
-          "home": "PARI",
-          "away": "BAS",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2027-01-21",
           "time": "19:45"
         },
         {
-          "home": "RMA",
-          "away": "MAC",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2027-01-21",
           "time": "19:45"
         },
         {
-          "home": "EFE",
-          "away": "DUB",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2027-01-22",
           "time": "17:30"
         },
         {
-          "home": "ZAL",
-          "away": "VIR",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2027-01-22",
           "time": "18:00"
         },
         {
-          "home": "CZV",
-          "away": "BAR",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2027-01-22",
           "time": "19:00"
         },
         {
-          "home": "VAL",
-          "away": "ASV",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2027-01-22",
           "time": "19:30"
         }
@@ -1719,62 +2199,82 @@
       "end": "2027-01-29",
       "pairings": [
         {
-          "home": "BJK",
-          "away": "CZV",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2027-01-28",
           "time": "17:00"
         },
         {
-          "home": "BAY",
-          "away": "VAL",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2027-01-28",
           "time": "19:00"
         },
         {
-          "home": "OLY",
-          "away": "MAC",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2027-01-28",
           "time": "19:15"
         },
         {
-          "home": "BAS",
-          "away": "ZAL",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2027-01-28",
           "time": "19:30"
         },
         {
-          "home": "VIR",
-          "away": "PARI",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2027-01-28",
           "time": "19:30"
         },
         {
-          "home": "FEN",
-          "away": "RMA",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2027-01-29",
           "time": "17:45"
         },
         {
-          "home": "ASV",
-          "away": "HAP",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2027-01-29",
           "time": "19:00"
         },
         {
-          "home": "PAN",
-          "away": "EFE",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2027-01-29",
           "time": "19:15"
         },
         {
-          "home": "BAR",
-          "away": "DUB",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2027-01-29",
           "time": "19:30"
         },
         {
-          "home": "MIL",
-          "away": "PAR",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2027-01-29",
           "time": "19:30"
         }
@@ -1786,62 +2286,82 @@
       "end": "2027-02-03",
       "pairings": [
         {
-          "home": "EFE",
-          "away": "ZAL",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2027-02-02",
           "time": "17:30"
         },
         {
-          "home": "MAC",
-          "away": "VIR",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2027-02-02",
           "time": "19:05"
         },
         {
-          "home": "PAN",
-          "away": "DUB",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2027-02-02",
           "time": "19:15"
         },
         {
-          "home": "BAS",
-          "away": "FEN",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2027-02-02",
           "time": "19:30"
         },
         {
-          "home": "PAR",
-          "away": "RMA",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2027-02-02",
           "time": "19:45"
         },
         {
-          "home": "PARI",
-          "away": "BJK",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2027-02-02",
           "time": "19:45"
         },
         {
-          "home": "HAP",
-          "away": "OLY",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2027-02-03",
           "time": "18:00"
         },
         {
-          "home": "BAY",
-          "away": "CZV",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2027-02-03",
           "time": "19:00"
         },
         {
-          "home": "BAR",
-          "away": "ASV",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2027-02-03",
           "time": "19:30"
         },
         {
-          "home": "VAL",
-          "away": "MIL",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2027-02-03",
           "time": "19:45"
         }
@@ -1853,62 +2373,82 @@
       "end": "2027-02-05",
       "pairings": [
         {
-          "home": "DUB",
-          "away": "VIR",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2027-02-04",
           "time": "16:00"
         },
         {
-          "home": "EFE",
-          "away": "MAC",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2027-02-04",
           "time": "17:30"
         },
         {
-          "home": "ZAL",
-          "away": "BJK",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2027-02-04",
           "time": "18:00"
         },
         {
-          "home": "RMA",
-          "away": "PARI",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2027-02-04",
           "time": "19:45"
         },
         {
-          "home": "OLY",
-          "away": "BAY",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2027-02-05",
           "time": "18:30"
         },
         {
-          "home": "ASV",
-          "away": "FEN",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2027-02-05",
           "time": "19:00"
         },
         {
-          "home": "BAS",
-          "away": "CZV",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2027-02-05",
           "time": "19:30"
         },
         {
-          "home": "MIL",
-          "away": "PAN",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2027-02-05",
           "time": "19:30"
         },
         {
-          "home": "PAR",
-          "away": "HAP",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2027-02-05",
           "time": "19:45"
         },
         {
-          "home": "VAL",
-          "away": "BAR",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2027-02-05",
           "time": "19:45"
         }
@@ -1920,62 +2460,82 @@
       "end": "2027-02-12",
       "pairings": [
         {
-          "home": "HAP",
-          "away": "BAS",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2027-02-10",
           "time": "18:00"
         },
         {
-          "home": "ASV",
-          "away": "EFE",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2027-02-10",
           "time": "19:00"
         },
         {
-          "home": "BJK",
-          "away": "DUB",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2027-02-11",
           "time": "17:00"
         },
         {
-          "home": "CZV",
-          "away": "PAR",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2027-02-11",
           "time": "19:00"
         },
         {
-          "home": "MAC",
-          "away": "BAR",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2027-02-11",
           "time": "19:05"
         },
         {
-          "home": "VAL",
-          "away": "PARI",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2027-02-11",
           "time": "19:30"
         },
         {
-          "home": "VIR",
-          "away": "BAY",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2027-02-11",
           "time": "19:30"
         },
         {
-          "home": "FEN",
-          "away": "MIL",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2027-02-12",
           "time": "17:45"
         },
         {
-          "home": "ZAL",
-          "away": "RMA",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2027-02-12",
           "time": "18:00"
         },
         {
-          "home": "OLY",
-          "away": "PAN",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2027-02-12",
           "time": "19:15"
         }
@@ -1987,62 +2547,82 @@
       "end": "2027-03-05",
       "pairings": [
         {
-          "home": "PAN",
-          "away": "BJK",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2027-03-04",
           "time": "19:15"
         },
         {
-          "home": "VAL",
-          "away": "ZAL",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2027-03-04",
           "time": "19:30"
         },
         {
-          "home": "VIR",
-          "away": "HAP",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2027-03-04",
           "time": "19:30"
         },
         {
-          "home": "BAS",
-          "away": "PAR",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2027-03-04",
           "time": "19:45"
         },
         {
-          "home": "PARI",
-          "away": "MAC",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2027-03-04",
           "time": "19:45"
         },
         {
-          "home": "DUB",
-          "away": "OLY",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2027-03-05",
           "time": "16:00"
         },
         {
-          "home": "BAY",
-          "away": "ASV",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2027-03-05",
           "time": "19:00"
         },
         {
-          "home": "CZV",
-          "away": "FEN",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2027-03-05",
           "time": "19:00"
         },
         {
-          "home": "BAR",
-          "away": "RMA",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2027-03-05",
           "time": "19:30"
         },
         {
-          "home": "MIL",
-          "away": "EFE",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2027-03-05",
           "time": "19:30"
         }
@@ -2054,62 +2634,82 @@
       "end": "2027-03-10",
       "pairings": [
         {
-          "home": "BJK",
-          "away": "ASV",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2027-03-09",
           "time": "17:00"
         },
         {
-          "home": "ZAL",
-          "away": "BAR",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2027-03-09",
           "time": "18:00"
         },
         {
-          "home": "BAY",
-          "away": "EFE",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2027-03-09",
           "time": "19:00"
         },
         {
-          "home": "MAC",
-          "away": "CZV",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2027-03-09",
           "time": "19:05"
         },
         {
-          "home": "BAS",
-          "away": "PAN",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2027-03-09",
           "time": "19:30"
         },
         {
-          "home": "VIR",
-          "away": "FEN",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2027-03-09",
           "time": "19:30"
         },
         {
-          "home": "PAR",
-          "away": "PARI",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2027-03-09",
           "time": "19:45"
         },
         {
-          "home": "RMA",
-          "away": "HAP",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2027-03-09",
           "time": "19:45"
         },
         {
-          "home": "DUB",
-          "away": "VAL",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2027-03-10",
           "time": "16:00"
         },
         {
-          "home": "MIL",
-          "away": "OLY",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2027-03-10",
           "time": "19:30"
         }
@@ -2121,62 +2721,82 @@
       "end": "2027-03-12",
       "pairings": [
         {
-          "home": "BAY",
-          "away": "HAP",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2027-03-11",
           "time": "19:00"
         },
         {
-          "home": "MAC",
-          "away": "ASV",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2027-03-11",
           "time": "19:05"
         },
         {
-          "home": "PAR",
-          "away": "EFE",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2027-03-11",
           "time": "19:45"
         },
         {
-          "home": "PARI",
-          "away": "PAN",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2027-03-11",
           "time": "19:45"
         },
         {
-          "home": "RMA",
-          "away": "VIR",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2027-03-11",
           "time": "19:45"
         },
         {
-          "home": "FEN",
-          "away": "VAL",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2027-03-12",
           "time": "17:45"
         },
         {
-          "home": "ZAL",
-          "away": "MIL",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2027-03-12",
           "time": "18:00"
         },
         {
-          "home": "CZV",
-          "away": "DUB",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2027-03-12",
           "time": "19:00"
         },
         {
-          "home": "OLY",
-          "away": "BJK",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2027-03-12",
           "time": "19:15"
         },
         {
-          "home": "BAR",
-          "away": "BAS",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2027-03-12",
           "time": "19:30"
         }
@@ -2188,62 +2808,82 @@
       "end": "2027-03-19",
       "pairings": [
         {
-          "home": "FEN",
-          "away": "PARI",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2027-03-18",
           "time": "17:45"
         },
         {
-          "home": "MAC",
-          "away": "VAL",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2027-03-18",
           "time": "19:05"
         },
         {
-          "home": "PAN",
-          "away": "ZAL",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2027-03-18",
           "time": "19:15"
         },
         {
-          "home": "PAR",
-          "away": "BAY",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2027-03-18",
           "time": "19:45"
         },
         {
-          "home": "RMA",
-          "away": "BAS",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2027-03-18",
           "time": "19:45"
         },
         {
-          "home": "DUB",
-          "away": "MIL",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2027-03-19",
           "time": "16:00"
         },
         {
-          "home": "BJK",
-          "away": "EFE",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2027-03-19",
           "time": "17:00"
         },
         {
-          "home": "ASV",
-          "away": "VIR",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2027-03-19",
           "time": "19:00"
         },
         {
-          "home": "CZV",
-          "away": "OLY",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2027-03-19",
           "time": "19:00"
         },
         {
-          "home": "BAR",
-          "away": "HAP",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2027-03-19",
           "time": "19:30"
         }
@@ -2255,62 +2895,82 @@
       "end": "2027-03-24",
       "pairings": [
         {
-          "home": "DUB",
-          "away": "BAS",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2027-03-23",
           "time": "16:00"
         },
         {
-          "home": "EFE",
-          "away": "CZV",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2027-03-23",
           "time": "17:30"
         },
         {
-          "home": "HAP",
-          "away": "FEN",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2027-03-23",
           "time": "18:00"
         },
         {
-          "home": "ASV",
-          "away": "PAN",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2027-03-23",
           "time": "19:00"
         },
         {
-          "home": "PAR",
-          "away": "VIR",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2027-03-23",
           "time": "19:45"
         },
         {
-          "home": "PARI",
-          "away": "MIL",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2027-03-23",
           "time": "19:45"
         },
         {
-          "home": "ZAL",
-          "away": "MAC",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2027-03-24",
           "time": "18:00"
         },
         {
-          "home": "BAY",
-          "away": "RMA",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2027-03-24",
           "time": "19:00"
         },
         {
-          "home": "OLY",
-          "away": "BAR",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2027-03-24",
           "time": "19:15"
         },
         {
-          "home": "VAL",
-          "away": "BJK",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2027-03-24",
           "time": "19:30"
         }
@@ -2322,62 +2982,82 @@
       "end": "2027-03-26",
       "pairings": [
         {
-          "home": "EFE",
-          "away": "BAS",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2027-03-25",
           "time": "17:30"
         },
         {
-          "home": "HAP",
-          "away": "DUB",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2027-03-25",
           "time": "18:00"
         },
         {
-          "home": "ASV",
-          "away": "PARI",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
           "date": "2027-03-25",
           "time": "19:00"
         },
         {
-          "home": "PAN",
-          "away": "PAR",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2027-03-25",
           "time": "19:15"
         },
         {
-          "home": "FEN",
-          "away": "BAR",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2027-03-26",
           "time": "17:45"
         },
         {
-          "home": "BAY",
-          "away": "ZAL",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2027-03-26",
           "time": "19:00"
         },
         {
-          "home": "CZV",
-          "away": "VAL",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2027-03-26",
           "time": "19:00"
         },
         {
-          "home": "OLY",
-          "away": "VIR",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2027-03-26",
           "time": "19:15"
         },
         {
-          "home": "MIL",
-          "away": "MAC",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2027-03-26",
           "time": "19:30"
         },
         {
-          "home": "RMA",
-          "away": "BJK",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2027-03-26",
           "time": "19:45"
         }
@@ -2389,62 +3069,82 @@
       "end": "2027-04-02",
       "pairings": [
         {
-          "home": "EFE",
-          "away": "OLY",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2027-03-31",
           "time": "17:30"
         },
         {
-          "home": "ZAL",
-          "away": "HAP",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2027-03-31",
           "time": "18:00"
         },
         {
-          "home": "VIR",
-          "away": "CZV",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2027-03-31",
           "time": "18:30"
         },
         {
-          "home": "MAC",
-          "away": "FEN",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2027-04-01",
           "time": "18:05"
         },
         {
-          "home": "MIL",
-          "away": "BJK",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
           "date": "2027-04-01",
           "time": "18:30"
         },
         {
-          "home": "VAL",
-          "away": "RMA",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2027-04-01",
           "time": "18:30"
         },
         {
-          "home": "PARI",
-          "away": "DUB",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2027-04-01",
           "time": "18:45"
         },
         {
-          "home": "BAR",
-          "away": "PAN",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2027-04-02",
           "time": "18:30"
         },
         {
-          "home": "BAS",
-          "away": "BAY",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2027-04-02",
           "time": "18:30"
         },
         {
-          "home": "PAR",
-          "away": "ASV",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2027-04-02",
           "time": "18:45"
         }
@@ -2456,62 +3156,82 @@
       "end": "2027-04-07",
       "pairings": [
         {
-          "home": "BJK",
-          "away": "HAP",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2027-04-06",
           "time": "17:00"
         },
         {
-          "home": "FEN",
-          "away": "OLY",
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
           "date": "2027-04-06",
           "time": "17:45"
         },
         {
-          "home": "BAS",
-          "away": "ASV",
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2027-04-06",
           "time": "18:30"
         },
         {
-          "home": "CZV",
-          "away": "PAN",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Panathinaikos",
+          "awayManager": "tomasas9",
           "date": "2027-04-06",
           "time": "18:30"
         },
         {
-          "home": "VIR",
-          "away": "VAL",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2027-04-06",
           "time": "18:30"
         },
         {
-          "home": "BAR",
-          "away": "BAY",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2027-04-06",
           "time": "18:45"
         },
         {
-          "home": "PARI",
-          "away": "EFE",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2027-04-06",
           "time": "18:45"
         },
         {
-          "home": "RMA",
-          "away": "MIL",
+          "homeTeam": "Madrido „Real“",
+          "homeManager": "rytuzaz",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2027-04-06",
           "time": "18:45"
         },
         {
-          "home": "DUB",
-          "away": "ZAL",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2027-04-07",
           "time": "16:00"
         },
         {
-          "home": "MAC",
-          "away": "PAR",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2027-04-07",
           "time": "16:00"
         }
@@ -2523,62 +3243,82 @@
       "end": "2027-04-09",
       "pairings": [
         {
-          "home": "HAP",
-          "away": "CZV",
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
           "date": "2027-04-08",
           "time": "17:00"
         },
         {
-          "home": "ASV",
-          "away": "RMA",
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2027-04-08",
           "time": "18:00"
         },
         {
-          "home": "BAY",
-          "away": "FEN",
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2027-04-08",
           "time": "18:00"
         },
         {
-          "home": "PAN",
-          "away": "VIR",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2027-04-08",
           "time": "18:15"
         },
         {
-          "home": "MIL",
-          "away": "BAS",
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2027-04-08",
           "time": "18:30"
         },
         {
-          "home": "VAL",
-          "away": "EFE",
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
           "date": "2027-04-08",
           "time": "18:30"
         },
         {
-          "home": "PARI",
-          "away": "BAR",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
           "date": "2027-04-08",
           "time": "18:45"
         },
         {
-          "home": "BJK",
-          "away": "MAC",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2027-04-09",
           "time": "17:00"
         },
         {
-          "home": "OLY",
-          "away": "ZAL",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
           "date": "2027-04-09",
           "time": "18:15"
         },
         {
-          "home": "PAR",
-          "away": "DUB",
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
           "date": "2027-04-09",
           "time": "18:45"
         }
@@ -2590,62 +3330,82 @@
       "end": "2027-04-16",
       "pairings": [
         {
-          "home": "ZAL",
-          "away": "FEN",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Stambulo „Fenerbahce“",
+          "awayManager": "nero99",
           "date": "2027-04-15",
           "time": "17:00"
         },
         {
-          "home": "EFE",
-          "away": "HAP",
+          "homeTeam": "Stambulo „Anadolu Efes“",
+          "homeManager": "staska123",
+          "awayTeam": "Hapoel",
+          "awayManager": "baudejas7",
           "date": "2027-04-15",
           "time": "17:30"
         },
         {
-          "home": "CZV",
-          "away": "MIL",
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
           "date": "2027-04-15",
           "time": "18:00"
         },
         {
-          "home": "MAC",
-          "away": "BAS",
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Baskonia",
+          "awayManager": "nerka7777",
           "date": "2027-04-15",
           "time": "18:05"
         },
         {
-          "home": "PAN",
-          "away": "RMA",
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
           "date": "2027-04-15",
           "time": "18:15"
         },
         {
-          "home": "PARI",
-          "away": "BAY",
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
           "date": "2027-04-15",
           "time": "18:45"
         },
         {
-          "home": "DUB",
-          "away": "ASV",
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
           "date": "2027-04-16",
           "time": "16:00"
         },
         {
-          "home": "BJK",
-          "away": "VIR",
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
           "date": "2027-04-16",
           "time": "17:00"
         },
         {
-          "home": "OLY",
-          "away": "VAL",
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
           "date": "2027-04-16",
           "time": "18:15"
         },
         {
-          "home": "BAR",
-          "away": "PAR",
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
           "date": "2027-04-16",
           "time": "18:30"
         }
@@ -2837,7 +3597,7 @@
   "source": {
     "schedule": "EuroLeague oficialus 2026–27 kalendoriaus PDF • 38 turai × 10 rungtynių",
     "managerScores": "GitHub • administratoriaus įvesti taškai",
-    "lastUpdate": "2026-09-24T16:13:03.788Z"
+    "lastUpdate": "2026-09-24T16:13:41.698Z"
   },
   "market": {
     "status": "closed",
