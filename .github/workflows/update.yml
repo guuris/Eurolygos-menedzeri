@@ -3,21 +3,35 @@ on:
   schedule:
     - cron: "*/30 * * * *"
   workflow_dispatch:
+  issues:
+    types: [opened]
 permissions:
   contents: write
+  issues: write
 jobs:
   update:
+    if: github.event_name != 'issues' || (github.event.issue.user.login == 'guuris' && startsWith(github.event.issue.title, '[TAŠKAI]'))
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: {node-version: 20}
-      - run: node scripts/update.mjs
+      - if: github.event_name == 'issues'
+        run: node scripts/apply-scores.mjs
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+      - if: github.event_name != 'issues'
+        run: node scripts/update.mjs
         env:
           DATA_URL: ${{ secrets.DATA_URL }}
       - run: |
           git config user.name "Eurolygos menedzeris bot"
           git config user.email "actions@github.com"
           git add data/league.json
-          git diff --cached --quiet || git commit -m "Auto: atnaujinti menedzerio duomenis"
+          git diff --cached --quiet || git commit -m "Atnaujinti turo taškus"
           git push
+      - if: github.event_name == 'issues'
+        run: gh issue close "${{ github.event.issue.number }}" --comment "Taškai priimti ir įkelti į lentelę."
+        env:
+          GH_TOKEN: ${{ github.token }}
