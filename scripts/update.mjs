@@ -13,10 +13,16 @@ async function getMarket(){
 async function getSchedule(){
   const parsed=JSON.parse(await fs.readFile(schedulePath,"utf8"));
   if(!Array.isArray(parsed)||parsed.length!==380) throw new Error(`Official schedule contains ${parsed.length}, expected 380`);
+  const teamByCode=Object.fromEntries(data.teams.map(t=>[t.code,t]));
   const rounds=[];
   for(let i=0;i<38;i++){
-    const pairings=parsed.slice(i*10,i*10+10);
-    if(pairings.length!==10) throw new Error(`Round ${i+1} has ${pairings.length} games`);
+    const raw=parsed.slice(i*10,i*10+10);
+    if(raw.length!==10) throw new Error(`Round ${i+1} has ${raw.length} games`);
+    const pairings=raw.map(g=>{
+      const h=teamByCode[g.home], a=teamByCode[g.away];
+      if(!h||!a) throw new Error(`Unknown team code: ${g.home} / ${g.away}`);
+      return {homeTeam:h.team,homeManager:h.manager,awayTeam:a.team,awayManager:a.manager,date:g.date,time:g.time};
+    });
     rounds.push({round:i+1,start:pairings[0].date,end:pairings.at(-1).date,pairings});
   }
   return rounds;
