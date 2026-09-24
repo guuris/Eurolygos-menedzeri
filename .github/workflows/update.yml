@@ -1,5 +1,9 @@
 name: Atnaujinti Eurolygos menedzerį
 on:
+  push:
+    paths:
+      - "scripts/update.mjs"
+      - ".github/workflows/update.yml"
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
