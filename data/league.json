@@ -1,0 +1,382 @@
+{
+  "season": "2026–2027",
+  "bonusPoints": 1,
+  "bonusRule": "Bonusas konfigūruojamas.",
+  "teams": [
+    {
+      "team": "Kauno „Žalgiris“",
+      "manager": "EimantasMi",
+      "code": "ZAL"
+    },
+    {
+      "team": "Madrido „Real“",
+      "manager": "rytuzaz",
+      "code": "RMA"
+    },
+    {
+      "team": "Barcelona",
+      "manager": "easymano",
+      "code": "BAR"
+    },
+    {
+      "team": "Baskonia",
+      "manager": "nerka7777",
+      "code": "BAS"
+    },
+    {
+      "team": "Valencia",
+      "manager": "Danasbutkus",
+      "code": "VAL"
+    },
+    {
+      "team": "Stambulo „Fenerbahce“",
+      "manager": "nero99",
+      "code": "FEN"
+    },
+    {
+      "team": "Stambulo „Anadolu Efes“",
+      "manager": "staska123",
+      "code": "EFE"
+    },
+    {
+      "team": "Bešiktaš",
+      "manager": "beisbolas1",
+      "code": "BJK"
+    },
+    {
+      "team": "Olympiacos",
+      "manager": "almantas1992",
+      "code": "OLY"
+    },
+    {
+      "team": "Panathinaikos",
+      "manager": "tomasas9",
+      "code": "PAN"
+    },
+    {
+      "team": "Crvena Zvezda",
+      "manager": "endzei1",
+      "code": "CZV"
+    },
+    {
+      "team": "Partizan",
+      "manager": "deivis111",
+      "code": "PAR"
+    },
+    {
+      "team": "Maccabi",
+      "manager": "dzonilexus",
+      "code": "MAC"
+    },
+    {
+      "team": "Hapoel",
+      "manager": "baudejas7",
+      "code": "HAP"
+    },
+    {
+      "team": "Milano „Olimpia“",
+      "manager": "shmitas",
+      "code": "MIL"
+    },
+    {
+      "team": "Virtus",
+      "manager": "larys",
+      "code": "VIR"
+    },
+    {
+      "team": "Paris",
+      "manager": "guuris",
+      "code": "PARI"
+    },
+    {
+      "team": "ASVEL",
+      "manager": "Audriust_4",
+      "code": "ASV"
+    },
+    {
+      "team": "Bayern",
+      "manager": "vytolas21",
+      "code": "BAY"
+    },
+    {
+      "team": "Dubai",
+      "manager": "zylee14",
+      "code": "DUB"
+    }
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "start": "2026-09-24",
+      "end": "2026-09-25",
+      "pairings": [
+        {
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Madrido „Real“",
+          "awayManager": "rytuzaz",
+          "time": "19:00",
+          "date": "2026-09-24"
+        },
+        {
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
+          "time": "20:00",
+          "date": "2026-09-24"
+        },
+        {
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
+          "time": "21:00",
+          "date": "2026-09-24"
+        },
+        {
+          "homeTeam": "Panathinaikos",
+          "homeManager": "tomasas9",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
+          "time": "21:15",
+          "date": "2026-09-24"
+        },
+        {
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
+          "time": "21:30",
+          "date": "2026-09-24"
+        },
+        {
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
+          "time": "21:30",
+          "date": "2026-09-24"
+        },
+        {
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
+          "time": "21:45",
+          "date": "2026-09-24"
+        },
+        {
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
+          "time": "20:00",
+          "date": "2026-09-25"
+        },
+        {
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
+          "time": "20:45",
+          "date": "2026-09-25"
+        },
+        {
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
+          "time": "21:30",
+          "date": "2026-09-25"
+        }
+      ]
+    }
+  ],
+  "scores": {
+    "EimantasMi": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "rytuzaz": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "easymano": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "nerka7777": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "Danasbutkus": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "nero99": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "staska123": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "beisbolas1": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "almantas1992": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "tomasas9": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "endzei1": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "deivis111": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "dzonilexus": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "baudejas7": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "shmitas": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "larys": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "guuris": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "Audriust_4": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "vytolas21": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    },
+    "zylee14": {
+      "round": 1,
+      "managerPoints": null,
+      "w": 0,
+      "l": 0,
+      "b": 0,
+      "pm": 0,
+      "pts": 0
+    }
+  },
+  "source": {
+    "schedule": "Krepsinis.net Eurolygos tvarkaraštis",
+    "managerScores": "Dar neprijungta"
+  }
+}
