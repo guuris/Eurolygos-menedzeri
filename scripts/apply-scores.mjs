@@ -67,8 +67,7 @@ if(title.startsWith("[ANULIUOTI]")){
 }
 
 const points={};
-for(const line of issueBody.split(/\r?
-/)){
+for(const line of issueBody.split(/\\r?\\n/)){
   const m=line.trim().match(/^(.+?)\s*,\s*(-?\d+(?:[.,]\d+)?)$/);
   if(m) points[m[1].trim()]=Number(m[2].replace(",","."));
 }
@@ -103,5 +102,4 @@ for(const r of data.rounds){
 }
 data.scores=totals;
 data.source.managerScores="GitHub • administratoriaus įvesti taškai";
-fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"
-");
+fs.writeFileSync("data/league.json",JSON.stringify(data,null,2)+"\\n");
