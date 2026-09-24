@@ -107,24 +107,16 @@
   "rounds": [
     {
       "round": 1,
-      "start": "2026-09-24",
-      "end": "2026-09-25",
+      "start": "2026-09-24T20:00:00",
+      "end": "2026-09-25T20:45:00",
       "pairings": [
         {
-          "homeTeam": "Dubai",
-          "homeManager": "zylee14",
-          "awayTeam": "Madrido „Real“",
-          "awayManager": "rytuzaz",
-          "time": "19:00",
-          "date": "2026-09-24"
-        },
-        {
-          "homeTeam": "Hapoel",
-          "homeManager": "baudejas7",
-          "awayTeam": "Bayern",
-          "awayManager": "vytolas21",
-          "time": "20:00",
-          "date": "2026-09-24"
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
+          "time": "—",
+          "date": "2026-09-25T20:45:00"
         },
         {
           "homeTeam": "Crvena Zvezda",
@@ -132,63 +124,1130 @@
           "awayTeam": "Kauno „Žalgiris“",
           "awayManager": "EimantasMi",
           "time": "21:00",
-          "date": "2026-09-24"
+          "date": "2026-09-24T20:00:00"
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "start": "2026-09-29T18:00:00",
+      "end": "2026-09-29T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
+          "time": "—",
+          "date": "2026-09-29T20:30:00"
         },
         {
-          "homeTeam": "Panathinaikos",
-          "homeManager": "tomasas9",
-          "awayTeam": "Paris",
-          "awayManager": "guuris",
-          "time": "21:15",
-          "date": "2026-09-24"
-        },
-        {
-          "homeTeam": "Barcelona",
-          "homeManager": "easymano",
-          "awayTeam": "Stambulo „Anadolu Efes“",
-          "awayManager": "staska123",
-          "time": "21:30",
-          "date": "2026-09-24"
-        },
-        {
-          "homeTeam": "Baskonia",
-          "homeManager": "nerka7777",
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
           "awayTeam": "Olympiacos",
           "awayManager": "almantas1992",
-          "time": "21:30",
-          "date": "2026-09-24"
+          "time": "—",
+          "date": "2026-09-29T19:00:00"
         },
         {
-          "homeTeam": "ASVEL",
-          "homeManager": "Audriust_4",
-          "awayTeam": "Maccabi",
-          "awayManager": "dzonilexus",
-          "time": "21:45",
-          "date": "2026-09-24"
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
+          "time": "—",
+          "date": "2026-09-29T18:00:00"
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "start": "2026-10-01T20:30:00",
+      "end": "2026-10-02T20:00:00",
+      "pairings": [
+        {
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
+          "time": "—",
+          "date": "2026-10-02T20:00:00"
         },
         {
           "homeTeam": "Bešiktaš",
           "homeManager": "beisbolas1",
-          "awayTeam": "Valencia",
-          "awayManager": "Danasbutkus",
-          "time": "20:00",
-          "date": "2026-09-25"
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
+          "time": "—",
+          "date": "2026-10-02T19:00:00"
         },
         {
-          "homeTeam": "Stambulo „Fenerbahce“",
-          "homeManager": "nero99",
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
+          "time": "—",
+          "date": "2026-10-01T20:30:00"
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "start": "2026-10-08T18:00:00",
+      "end": "2026-10-09T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
+          "time": "—",
+          "date": "2026-10-09T20:30:00"
+        },
+        {
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
           "awayTeam": "Virtus",
           "awayManager": "larys",
-          "time": "20:45",
-          "date": "2026-09-25"
+          "time": "—",
+          "date": "2026-10-08T20:00:00"
+        },
+        {
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
+          "time": "—",
+          "date": "2026-10-08T18:00:00"
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "start": "2026-10-13T20:00:00",
+      "end": "2026-10-13T20:00:00",
+      "pairings": [
+        {
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
+          "time": "—",
+          "date": "2026-10-13T20:00:00"
+        }
+      ]
+    },
+    {
+      "round": 6,
+      "start": "2026-10-15T20:30:00",
+      "end": "2026-10-16T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
+          "time": "—",
+          "date": "2026-10-16T20:30:00"
+        },
+        {
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
+          "time": "—",
+          "date": "2026-10-16T19:00:00"
+        },
+        {
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
+          "time": "—",
+          "date": "2026-10-15T20:30:00"
+        }
+      ]
+    },
+    {
+      "round": 7,
+      "start": "2026-10-22T20:00:00",
+      "end": "2026-10-23T19:00:00",
+      "pairings": [
+        {
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
+          "time": "—",
+          "date": "2026-10-23T19:00:00"
+        },
+        {
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
+          "time": "—",
+          "date": "2026-10-22T20:45:00"
+        },
+        {
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
+          "time": "—",
+          "date": "2026-10-22T20:30:00"
+        },
+        {
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
+          "time": "—",
+          "date": "2026-10-22T20:00:00"
+        }
+      ]
+    },
+    {
+      "round": 8,
+      "start": "2026-10-27T20:00:00",
+      "end": "2026-10-28T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
+          "time": "—",
+          "date": "2026-10-28T20:30:00"
+        },
+        {
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
+          "time": "—",
+          "date": "2026-10-28T20:00:00"
+        },
+        {
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
+          "time": "—",
+          "date": "2026-10-28T19:30:00"
+        },
+        {
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
+          "time": "—",
+          "date": "2026-10-27T20:00:00"
+        }
+      ]
+    },
+    {
+      "round": 9,
+      "start": "2026-10-29T20:00:00",
+      "end": "2026-10-30T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
+          "time": "—",
+          "date": "2026-10-30T20:30:00"
+        },
+        {
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
+          "time": "—",
+          "date": "2026-10-30T20:15:00"
+        },
+        {
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
+          "time": "—",
+          "date": "2026-10-30T19:00:00"
+        },
+        {
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
+          "time": "—",
+          "date": "2026-10-29T20:00:00"
+        }
+      ]
+    },
+    {
+      "round": 10,
+      "start": "2026-11-05T20:00:00",
+      "end": "2026-11-06T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
+          "time": "—",
+          "date": "2026-11-06T20:30:00"
+        },
+        {
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
+          "time": "—",
+          "date": "2026-11-06T20:15:00"
+        },
+        {
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
+          "time": "—",
+          "date": "2026-11-06T18:00:00"
+        },
+        {
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
+          "time": "—",
+          "date": "2026-11-05T20:00:00"
+        }
+      ]
+    },
+    {
+      "round": 11,
+      "start": "2026-11-12T20:15:00",
+      "end": "2026-11-13T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
+          "time": "—",
+          "date": "2026-11-13T20:30:00"
+        },
+        {
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
+          "time": "—",
+          "date": "2026-11-12T20:30:00"
+        },
+        {
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
+          "time": "—",
+          "date": "2026-11-12T20:15:00"
+        }
+      ]
+    },
+    {
+      "round": 12,
+      "start": "2026-11-17T19:00:00",
+      "end": "2026-11-17T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
+          "time": "—",
+          "date": "2026-11-17T20:30:00"
+        },
+        {
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
+          "time": "—",
+          "date": "2026-11-17T19:00:00"
+        }
+      ]
+    },
+    {
+      "round": 13,
+      "start": "2026-11-20T20:30:00",
+      "end": "2026-11-20T20:45:00",
+      "pairings": [
+        {
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
+          "time": "—",
+          "date": "2026-11-20T20:45:00"
+        },
+        {
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
+          "time": "—",
+          "date": "2026-11-20T20:30:00"
+        }
+      ]
+    },
+    {
+      "round": 14,
+      "start": "2026-11-24T19:00:00",
+      "end": "2026-11-25T17:00:00",
+      "pairings": [
+        {
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
+          "time": "—",
+          "date": "2026-11-25T17:00:00"
+        },
+        {
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
+          "time": "—",
+          "date": "2026-11-24T20:45:00"
+        },
+        {
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
+          "time": "—",
+          "date": "2026-11-24T19:00:00"
+        }
+      ]
+    },
+    {
+      "round": 15,
+      "start": "2026-12-04T19:00:00",
+      "end": "2026-12-04T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
+          "time": "—",
+          "date": "2026-12-04T20:30:00"
+        },
+        {
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
+          "time": "—",
+          "date": "2026-12-04T20:15:00"
+        },
+        {
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
+          "time": "—",
+          "date": "2026-12-04T19:00:00"
+        }
+      ]
+    },
+    {
+      "round": 16,
+      "start": "2026-12-10T20:30:00",
+      "end": "2026-12-11T20:45:00",
+      "pairings": [
+        {
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
+          "time": "—",
+          "date": "2026-12-11T20:45:00"
+        },
+        {
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
+          "time": "—",
+          "date": "2026-12-11T17:00:00"
+        },
+        {
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
+          "time": "—",
+          "date": "2026-12-10T20:30:00"
+        }
+      ]
+    },
+    {
+      "round": 17,
+      "start": "2026-12-15T20:30:00",
+      "end": "2026-12-16T18:00:00",
+      "pairings": [
+        {
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
+          "time": "—",
+          "date": "2026-12-16T18:00:00"
+        },
+        {
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
+          "time": "—",
+          "date": "2026-12-15T20:30:00"
+        }
+      ]
+    },
+    {
+      "round": 18,
+      "start": "2026-12-17T20:00:00",
+      "end": "2026-12-18T20:45:00",
+      "pairings": [
+        {
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
+          "time": "—",
+          "date": "2026-12-18T20:45:00"
+        },
+        {
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
+          "time": "—",
+          "date": "2026-12-18T20:30:00"
+        },
+        {
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
+          "time": "—",
+          "date": "2026-12-18T19:30:00"
+        },
+        {
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
+          "time": "—",
+          "date": "2026-12-17T20:00:00"
+        }
+      ]
+    },
+    {
+      "round": 19,
+      "start": "2026-12-22T20:00:00",
+      "end": "2026-12-22T20:00:00",
+      "pairings": [
+        {
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
+          "time": "—",
+          "date": "2026-12-22T20:00:00"
+        },
+        {
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
+          "time": "—",
+          "date": "2026-12-22T20:00:00"
+        }
+      ]
+    },
+    {
+      "round": 20,
+      "start": "2026-12-29T20:45:00",
+      "end": "2026-12-30T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
+          "time": "—",
+          "date": "2026-12-30T20:30:00"
+        },
+        {
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
+          "time": "—",
+          "date": "2026-12-30T20:00:00"
+        },
+        {
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
+          "time": "—",
+          "date": "2026-12-30T20:00:00"
+        },
+        {
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
+          "time": "—",
+          "date": "2026-12-29T20:45:00"
+        }
+      ]
+    },
+    {
+      "round": 21,
+      "start": "2027-01-06T20:30:00",
+      "end": "2027-01-08T20:00:00",
+      "pairings": [
+        {
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
+          "time": "—",
+          "date": "2027-01-08T20:00:00"
+        },
+        {
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
+          "time": "—",
+          "date": "2027-01-08T17:00:00"
+        },
+        {
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
+          "time": "—",
+          "date": "2027-01-06T20:30:00"
+        }
+      ]
+    },
+    {
+      "round": 22,
+      "start": "2027-01-12T20:00:00",
+      "end": "2027-01-13T18:00:00",
+      "pairings": [
+        {
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
+          "time": "—",
+          "date": "2027-01-13T18:00:00"
+        },
+        {
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
+          "time": "—",
+          "date": "2027-01-12T20:30:00"
+        },
+        {
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
+          "time": "—",
+          "date": "2027-01-12T20:00:00"
+        }
+      ]
+    },
+    {
+      "round": 23,
+      "start": "2027-01-14T19:00:00",
+      "end": "2027-01-15T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
+          "time": "—",
+          "date": "2027-01-15T20:30:00"
+        },
+        {
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
+          "time": "—",
+          "date": "2027-01-14T20:30:00"
+        },
+        {
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
+          "time": "—",
+          "date": "2027-01-14T19:00:00"
+        }
+      ]
+    },
+    {
+      "round": 24,
+      "start": "2027-01-21T20:00:00",
+      "end": "2027-01-22T20:00:00",
+      "pairings": [
+        {
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
+          "time": "—",
+          "date": "2027-01-22T20:00:00"
+        },
+        {
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
+          "time": "—",
+          "date": "2027-01-22T19:00:00"
+        },
+        {
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
+          "time": "—",
+          "date": "2027-01-21T20:45:00"
+        },
+        {
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
+          "time": "—",
+          "date": "2027-01-21T20:00:00"
+        }
+      ]
+    },
+    {
+      "round": 25,
+      "start": "2027-01-28T18:00:00",
+      "end": "2027-01-29T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
+          "time": "—",
+          "date": "2027-01-29T20:30:00"
         },
         {
           "homeTeam": "Milano „Olimpia“",
           "homeManager": "shmitas",
           "awayTeam": "Partizan",
           "awayManager": "deivis111",
-          "time": "21:30",
-          "date": "2026-09-25"
+          "time": "—",
+          "date": "2027-01-29T20:30:00"
+        },
+        {
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
+          "time": "—",
+          "date": "2027-01-28T18:00:00"
+        }
+      ]
+    },
+    {
+      "round": 26,
+      "start": "2027-02-03T20:00:00",
+      "end": "2027-02-03T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
+          "time": "—",
+          "date": "2027-02-03T20:30:00"
+        },
+        {
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
+          "time": "—",
+          "date": "2027-02-03T20:00:00"
+        }
+      ]
+    },
+    {
+      "round": 27,
+      "start": "2027-02-04T17:00:00",
+      "end": "2027-02-05T19:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
+          "time": "—",
+          "date": "2027-02-05T19:30:00"
+        },
+        {
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
+          "time": "—",
+          "date": "2027-02-04T19:00:00"
+        },
+        {
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
+          "time": "—",
+          "date": "2027-02-04T17:00:00"
+        }
+      ]
+    },
+    {
+      "round": 28,
+      "start": "2027-02-11T18:00:00",
+      "end": "2027-02-11T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
+          "time": "—",
+          "date": "2027-02-11T20:30:00"
+        },
+        {
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
+          "time": "—",
+          "date": "2027-02-11T20:00:00"
+        },
+        {
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
+          "time": "—",
+          "date": "2027-02-11T18:00:00"
+        }
+      ]
+    },
+    {
+      "round": 29,
+      "start": "2027-03-05T17:00:00",
+      "end": "2027-03-05T20:00:00",
+      "pairings": [
+        {
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
+          "time": "—",
+          "date": "2027-03-05T20:00:00"
+        },
+        {
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
+          "time": "—",
+          "date": "2027-03-05T17:00:00"
+        }
+      ]
+    },
+    {
+      "round": 30,
+      "start": "2027-03-09T18:00:00",
+      "end": "2027-03-10T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
+          "time": "—",
+          "date": "2027-03-10T20:30:00"
+        },
+        {
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
+          "time": "—",
+          "date": "2027-03-09T19:00:00"
+        },
+        {
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
+          "time": "—",
+          "date": "2027-03-09T18:00:00"
+        }
+      ]
+    },
+    {
+      "round": 31,
+      "start": "2027-03-12T19:00:00",
+      "end": "2027-03-12T20:15:00",
+      "pairings": [
+        {
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
+          "time": "—",
+          "date": "2027-03-12T20:15:00"
+        },
+        {
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
+          "time": "—",
+          "date": "2027-03-12T20:00:00"
+        },
+        {
+          "homeTeam": "Kauno „Žalgiris“",
+          "homeManager": "EimantasMi",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
+          "time": "—",
+          "date": "2027-03-12T19:00:00"
+        }
+      ]
+    },
+    {
+      "round": 32,
+      "start": "2027-03-18T20:45:00",
+      "end": "2027-03-19T20:00:00",
+      "pairings": [
+        {
+          "homeTeam": "ASVEL",
+          "homeManager": "Audriust_4",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
+          "time": "—",
+          "date": "2027-03-19T20:00:00"
+        },
+        {
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
+          "time": "—",
+          "date": "2027-03-19T20:00:00"
+        },
+        {
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
+          "time": "—",
+          "date": "2027-03-19T17:00:00"
+        },
+        {
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
+          "time": "—",
+          "date": "2027-03-18T20:45:00"
+        }
+      ]
+    },
+    {
+      "round": 33,
+      "start": "2027-03-23T20:45:00",
+      "end": "2027-03-24T20:15:00",
+      "pairings": [
+        {
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Barcelona",
+          "awayManager": "easymano",
+          "time": "—",
+          "date": "2027-03-24T20:15:00"
+        },
+        {
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
+          "time": "—",
+          "date": "2027-03-23T20:45:00"
+        }
+      ]
+    },
+    {
+      "round": 34,
+      "start": "2027-03-26T20:00:00",
+      "end": "2027-03-26T20:15:00",
+      "pairings": [
+        {
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
+          "time": "—",
+          "date": "2027-03-26T20:15:00"
+        },
+        {
+          "homeTeam": "Bayern",
+          "homeManager": "vytolas21",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
+          "time": "—",
+          "date": "2027-03-26T20:00:00"
+        }
+      ]
+    },
+    {
+      "round": 35,
+      "start": "2027-03-31T20:30:00",
+      "end": "2027-04-02T20:45:00",
+      "pairings": [
+        {
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
+          "time": "—",
+          "date": "2027-04-02T20:45:00"
+        },
+        {
+          "homeTeam": "Milano „Olimpia“",
+          "homeManager": "shmitas",
+          "awayTeam": "Bešiktaš",
+          "awayManager": "beisbolas1",
+          "time": "—",
+          "date": "2027-04-01T20:30:00"
+        },
+        {
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Crvena Zvezda",
+          "awayManager": "endzei1",
+          "time": "—",
+          "date": "2027-03-31T20:30:00"
+        }
+      ]
+    },
+    {
+      "round": 36,
+      "start": "2027-04-06T20:45:00",
+      "end": "2027-04-07T18:00:00",
+      "pairings": [
+        {
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
+          "time": "—",
+          "date": "2027-04-07T18:00:00"
+        },
+        {
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Bayern",
+          "awayManager": "vytolas21",
+          "time": "—",
+          "date": "2027-04-06T20:45:00"
+        }
+      ]
+    },
+    {
+      "round": 37,
+      "start": "2027-04-09T20:15:00",
+      "end": "2027-04-09T20:45:00",
+      "pairings": [
+        {
+          "homeTeam": "Partizan",
+          "homeManager": "deivis111",
+          "awayTeam": "Dubai",
+          "awayManager": "zylee14",
+          "time": "—",
+          "date": "2027-04-09T20:45:00"
+        },
+        {
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
+          "time": "—",
+          "date": "2027-04-09T20:15:00"
+        }
+      ]
+    },
+    {
+      "round": 38,
+      "start": "2027-04-15T20:00:00",
+      "end": "2027-04-16T20:30:00",
+      "pairings": [
+        {
+          "homeTeam": "Barcelona",
+          "homeManager": "easymano",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
+          "time": "—",
+          "date": "2027-04-16T20:30:00"
+        },
+        {
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Virtus",
+          "awayManager": "larys",
+          "time": "—",
+          "date": "2027-04-16T19:00:00"
+        },
+        {
+          "homeTeam": "Dubai",
+          "homeManager": "zylee14",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
+          "time": "—",
+          "date": "2027-04-16T18:00:00"
+        },
+        {
+          "homeTeam": "Crvena Zvezda",
+          "homeManager": "endzei1",
+          "awayTeam": "Milano „Olimpia“",
+          "awayManager": "shmitas",
+          "time": "—",
+          "date": "2027-04-15T20:00:00"
         }
       ]
     }
@@ -376,15 +1435,15 @@
     }
   },
   "source": {
-    "schedule": "Krepsinis.net Eurolygos tvarkaraštis",
-    "managerScores": "GitHub • administratoriaus įvesti taškai"
+    "schedule": "EuroLeague API • automatinis atnaujinimas",
+    "managerScores": "GitHub • administratoriaus įvesti taškai",
+    "lastUpdate": "2026-09-24T14:37:42.594Z"
   },
   "market": {
     "status": "open",
     "closesAt": "2026-09-24 18:55:00",
     "opensAt": null,
-    "source": "Krepsinis.net Eurolygos menedžeris",
-    "lastChecked": "2026-09-24T00:00:00Z"
+    "source": "Krepsinis.net Eurolygos menedžeris"
   },
   "roundPoints": {
     "1": {
