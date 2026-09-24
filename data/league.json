@@ -378,5 +378,12 @@
   "source": {
     "schedule": "Krepsinis.net Eurolygos tvarkaraštis",
     "managerScores": "Dar neprijungta"
+  },
+  "market": {
+    "status": "open",
+    "closesAt": "2026-09-24 18:55:00",
+    "opensAt": null,
+    "source": "Krepsinis.net Eurolygos menedžeris",
+    "lastChecked": "2026-09-24T00:00:00Z"
   }
 }
