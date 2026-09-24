@@ -1,5 +1,24 @@
-let data;const $=s=>document.querySelector(s);
-async function load(){data=await fetch("data/league.json?x="+Date.now()).then(r=>r.json());const saved=localStorage.getItem("eurolygos-admin-data");if(saved){try{data=JSON.parse(saved)}catch(e){}}render("home");startClock();$("#status").innerHTML="<strong>Privati lyga paruošta.</strong> <span>Po kiekvieno turo administratorius suveda Krepsinis.net vadybininkų taškus, o rezultatai ir lentelė perskaičiuojami automatiškai.</span>"}
+const SUPABASE_URL="https://ohazdehmrpvzotkxojtm";
+const SUPABASE_KEY="sb_publishable_dNOWPDWqbmlLDbS-C-lf6Q_H0MaoZzL";
+let data;
+const $=s=>document.querySelector(s);
+
+async function load(){
+  try{
+    const r=await fetch(SUPABASE_URL+"/rest/v1/league_state?id=eq.1&select=data",{headers:{apikey:SUPABASE_KEY,Authorization:"Bearer "+SUPABASE_KEY}});
+    if(!r.ok) throw new Error("Nepavyko gauti lygos duomenų");
+    const rows=await r.json();
+    if(!rows[0]?.data) throw new Error("Lyga nerasta");
+    data=rows[0].data;
+  }catch(e){
+    data=await fetch("data/league.json?x="+Date.now()).then(r=>r.json());
+    $("#status").innerHTML="<strong>Naudojama atsarginė versija.</strong> <span>Serverio duomenys laikinai nepasiekiami.</span>";
+  }
+  render("home");
+  startClock();
+  if(data?.source?.managerScores) $("#status").innerHTML="<strong>Privati lyga paruošta.</strong> <span>Taškai saugomi serveryje ir matomi visiems lankytojams.</span>";
+}
+
 function round(){return data.rounds[0]}
 function render(v){document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active",b.dataset.view===v));$("#app").innerHTML=v==="home"?home():v==="standings"?standings():v==="schedule"?schedule():v==="results"?results():teams()}
 function home(){return `<div class="grid"><section class="card"><div class="card-head"><div class="eyebrow">KITAS TURAS</div><h2>Rugsėjo 24–25 d.</h2></div>${round().pairings.map(game).join("")}</section>${standings()}</div>`}
@@ -10,5 +29,38 @@ function results(){return `<section class="card"><div class="card-head"><div cla
 function teams(){return `<section class="card"><div class="card-head"><div class="eyebrow">KOMANDOS</div><h2>20 vadybininkų</h2></div><div class="teamgrid">${data.teams.map(t=>`<div class="teamcard"><div class="logo">${t.code}</div><b>${t.team}</b><div class="muted">${t.manager}</div></div>`).join("")}</div></section>`}
 function startClock(){let target=new Date(round().start+"T19:00:00+03:00");setInterval(()=>{let d=Math.max(0,target-new Date()),days=Math.floor(d/86400000),h=Math.floor(d/3600000)%24,m=Math.floor(d/60000)%60;$("#countdown").textContent=`${String(days).padStart(2,"0")} d. ${String(h).padStart(2,"0")} val. ${String(m).padStart(2,"0")} min.`},1000)}
 function parsePoints(text){const out={};for(const raw of text.split(/\r?\n/)){const line=raw.trim();if(!line||line.startsWith("#"))continue;const m=line.match(/^(.+?)\s*[,;:\t]\s*(-?\d+(?:[.,]\d+)?)$/);if(m)out[m[1].trim()]=Number(m[2].replace(",","."));}return out}
-function recalc(points){for(const t of data.teams){const s=data.scores[t.manager]||{w:0,l:0,b:0,pm:0,pts:0};s.managerPoints=points[t.manager]??s.managerPoints;data.scores[t.manager]=s}for(const g of round().pairings){const a=data.scores[g.homeManager],b=data.scores[g.awayManager];if(a.managerPoints==null||b.managerPoints==null)continue;if(a.managerPoints>b.managerPoints){a.w=(a.w||0)+1;b.l=(b.l||0)+1;a.pts=(a.pts||0)+3}else if(b.managerPoints>a.managerPoints){b.w=(b.w||0)+1;a.l=(a.l||0)+1;b.pts=(b.pts||0)+3}else{a.b=(a.b||0)+1;b.b=(b.b||0)+1}}localStorage.setItem("eurolygos-admin-data",JSON.stringify(data));render("standings")}
-document.addEventListener("click",e=>{if(e.target.matches("nav button"))render(e.target.dataset.view);if(e.target.id==="adminBtn"){$("#adminModal").hidden=false;$("#pointsInput").focus()}if(e.target.id==="closeAdmin")$("#adminModal").hidden=true;if(e.target.id==="clearLocal"){localStorage.removeItem("eurolygos-admin-data");location.reload()}if(e.target.id==="applyPoints"){const points=parsePoints($("#pointsInput").value);if(!Object.keys(points).length){$("#adminHelp").textContent="Nerasta taškų. Naudokite formatą vadybininkas, taškai.";return}recalc(points);$("#adminHelp").textContent="Taškai pritaikyti šiame įrenginyje. Viešai kitiems lankytojams jie taps matomi tik prijungus serverinį išsaugojimą.";$("#adminModal").hidden=true}});$("#pointsFile").addEventListener("change",e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>$("#pointsInput").value=r.result;r.readAsText(f)});load();
+
+async function savePoints(){
+  const password=$("#adminPassword").value.trim();
+  const points=parsePoints($("#pointsInput").value);
+  const managers=new Set(data.teams.map(t=>t.manager));
+  const missing=data.teams.filter(t=>points[t.manager]===undefined).map(t=>t.manager);
+  const unknown=Object.keys(points).filter(k=>!managers.has(k));
+  if(!password){$("#adminHelp").textContent="Įveskite administratoriaus slaptažodį.";return}
+  if(missing.length){$("#adminHelp").textContent="Trūksta taškų: "+missing.join(", ");return}
+  if(unknown.length){$("#adminHelp").textContent="Nerasti vadybininkai: "+unknown.join(", ");return}
+  const button=$("#applyPoints");
+  button.disabled=true; button.textContent="Saugoma...";
+  try{
+    const r=await fetch(SUPABASE_URL+"/functions/v1/update-league-points",{method:"POST",headers:{"Content-Type":"application/json",apikey:SUPABASE_KEY},body:JSON.stringify({password,round:round().round,points})});
+    const result=await r.json();
+    if(!r.ok) throw new Error(result.error||"Nepavyko išsaugoti");
+    data=result.data;
+    $("#adminHelp").textContent="Taškai sėkmingai išsaugoti.";
+    $("#adminModal").hidden=true;
+    $("#adminPassword").value="";
+    $("#pointsInput").value="";
+    render("standings");
+    $("#status").innerHTML="<strong>Taškai atnaujinti.</strong> <span>Visi lankytojai matys naujus rezultatus.</span>";
+  }catch(e){$("#adminHelp").textContent=e.message}
+  finally{button.disabled=false;button.textContent="Išsaugoti taškus"}
+}
+
+document.addEventListener("click",e=>{
+  if(e.target.matches("nav button"))render(e.target.dataset.view);
+  if(e.target.id==="adminBtn"){$("#adminModal").hidden=false;$("#adminHelp").textContent="";$("#adminPassword").focus()}
+  if(e.target.id==="closeAdmin")$("#adminModal").hidden=true;
+  if(e.target.id==="applyPoints")savePoints();
+});
+$("#pointsFile").addEventListener("change",e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>$("#pointsInput").value=r.result;r.readAsText(f)});
+load();
