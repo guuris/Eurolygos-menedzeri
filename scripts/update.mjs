@@ -26,12 +26,55 @@ for(const r of data.rounds||[]){
 }
 
 async function getSchedule(){
-  const res=await fetch(apiUrl,{headers:{"User-Agent":"EurolygosMenedzeris/1.0"}});
-  if(!res.ok) throw new Error(`EuroLeague API HTTP ${res.status}`);
-  const payload=await res.json();
-  return payload.data||payload;
-}
+  const pdfUrl="https://ftpserver.euroleague.net/media/2026-27_EL_RS_CALENDAR_PRINTABLE.pdf";
+  const pdfPath="/tmp/euroleague-calendar.pdf";
+  const txtPath="/tmp/euroleague-calendar.txt";
+  const pdf=await fetch(pdfUrl);
+  if(!pdf.ok) throw new Error(`EuroLeague PDF HTTP ${pdf.status}`);
+  await fs.writeFile(pdfPath,Buffer.from(await pdf.arrayBuffer()));
+  const {execFileSync}=await import("node:child_process");
+  execFileSync("pdftotext",["-layout",pdfPath,txtPath]);
+  const text=await fs.readFile(txtPath,"utf8");
 
+  const aliases=[
+    ["CRVENA ZVEZDA MERIDIANBET BELGRADE","CZV"],["ZALGIRIS KAUNAS","ZAL"],
+    ["DUBAI BASKETBALL","DUB"],["REAL MADRID","RMA"],["HAPOEL IBI TEL AVIV","HAP"],
+    ["FC BAYERN MUNICH","BAY"],["FC BARCELONA","BAR"],["ANADOLU EFES ISTANBUL","EFE"],
+    ["KOSNER BASKONIA VITORIA-GASTEIZ","BAS"],["OLYMPIACOS PIRAEUS","OLY"],
+    ["LDLC ASVEL VILLEURBANNE","ASV"],["MACCABI RAPYD TEL AVIV","MAC"],
+    ["PANATHINAIKOS AKTOR ATHENS","PAN"],["PARIS BASKETBALL","PARI"],
+    ["BESIKTAS ISTANBUL","BJK"],["VALENCIA BASKET","VAL"],
+    ["FENERBAHCE ISTANBUL","FEN"],["VIRTUS BOLOGNA","VIR"],
+    ["PARTIZAN MOZZART BET BELGRADE","PAR"],["ARMANI OLIMPIA MILAN","MIL"]
+  ].sort((a,b)=>b[0].length-a[0].length);
+  const byCode=Object.fromEntries(aliases.map(([name,code])=>[code,teamByCode[code]]));
+  const games=[];
+  for(const line of text.split(/\\r?\\n/).map(x=>x.trim())){
+    const m=line.match(/^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday), (\\d{1,2} [A-Za-z]+ \\d{4}) (\\d{2}:\\d{2}) (\\d{2}:\\d{2}) (.+)$/);
+    if(!m) continue;
+    const [,date,gmtLocal,gmt,teams]=m;
+    let found=null;
+    for(const [official,code] of aliases){
+      if(teams.startsWith(official+" ")){ found=[official,code,teams.slice(official.length).trim()]; break; }
+    }
+    if(!found) continue;
+    const [homeOfficial,homeCode,awayOfficial]=found;
+    const awayEntry=aliases.find(([official])=>official===awayOfficial);
+    if(!awayEntry) continue;
+    const awayCode=awayEntry[1];
+    const home=byCode[homeCode], away=byCode[awayCode];
+    if(!home||!away) continue;
+    const utc=new Date(`${date}T${gmt}:00Z`);
+    const parts=new Intl.DateTimeFormat("en-GB",{timeZone:"Europe/Vilnius",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",hour12:false}).formatToParts(utc);
+    const p=Object.fromEntries(parts.map(x=>[x.type,x.value]));
+    games.push({
+      homeTeam:home.team,homeManager:home.manager,awayTeam:away.team,awayManager:away.manager,
+      date:`${p.year}-${p.month}-${p.day}`,time:`${p.hour}:${p.minute}`
+    });
+  }
+  if(games.length!==380) throw new Error(`Official PDF parsed ${games.length} games, expected 380`);
+  return games.map((g,i)=>({round:Math.floor(i/10)+1,g}));
+}
 try{
   try{ data.market=await getMarket(); }catch(e){ console.error("Krepsinis.net rinkos būsena nepavyko:",e.message); }
   const games=await getSchedule();
@@ -61,12 +104,7 @@ try{
 
   const schedule=[...rounds.entries()]
     .sort((a,b)=>a[0]-b[0])
-    .map(([round,pairings])=>({
-      round,
-      start:pairings.map(g=>g.date).sort()[0],
-      end:pairings.map(g=>g.date).sort().at(-1),
-      pairings
-    }));
+    .map(([round,pairings])=>({round,start:pairings[0].date,end:pairings.at(-1).date,pairings}));
 
   if(schedule.length){
     data.rounds=schedule;
