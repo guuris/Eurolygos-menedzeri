@@ -4,3 +4,5 @@
 .team-logo{width:28px;height:28px;object-fit:contain;vertical-align:middle;margin-right:8px}
 
 .big-logo{width:52px;height:52px;display:block;margin:0 auto 10px;object-fit:contain}.teamcard{text-align:center}
+
+.logo-fallback{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:8px;background:#202436;color:#fff;font-size:9px;font-weight:900;margin-right:8px;vertical-align:middle}.big-fallback{width:52px;height:52px;font-size:12px;margin:0 auto 10px}.market-source{opacity:.75;font-weight:600}
