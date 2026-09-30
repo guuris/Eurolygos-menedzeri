@@ -768,20 +768,20 @@
           "time": "22:00"
         },
         {
+          "homeTeam": "Bešiktaš",
+          "homeManager": "beisbolas1",
+          "awayTeam": "Olympiacos",
+          "awayManager": "almantas1992",
+          "date": "2026-10-28",
+          "time": "19:30"
+        },
+        {
           "homeTeam": "Hapoel",
           "homeManager": "baudejas7",
           "awayTeam": "Stambulo „Anadolu Efes“",
           "awayManager": "staska123",
           "date": "2026-10-28",
           "time": "20:00"
-        },
-        {
-          "homeTeam": "Bešiktaš",
-          "homeManager": "beisbolas1",
-          "awayTeam": "Olympiacos",
-          "awayManager": "almantas1992",
-          "date": "2026-10-28",
-          "time": "20:30"
         },
         {
           "homeTeam": "ASVEL",
@@ -3597,7 +3597,7 @@
   "source": {
     "schedule": "EuroLeague oficialus 2026–27 kalendoriaus PDF • 38 turai × 10 rungtynių",
     "managerScores": "GitHub • administratoriaus įvesti taškai",
-    "lastUpdate": "2026-09-30T14:44:33.732Z"
+    "lastUpdate": "2026-09-30T15:00:05.677Z"
   },
   "market": {
     "status": "closed",
