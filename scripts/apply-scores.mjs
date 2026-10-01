@@ -43,7 +43,10 @@ if(title.startsWith("[TAŠKAI]") && /ATNAUJINTI TVARKARAŠTĮ/i.test(issueBody))
   process.exit(0);
 }
 
-const currentRound=String(data.rounds[0].round);
+const completedRounds=(data.rounds||[]).filter(r=>{const p=data.roundPoints?.[String(r.round)]||{};return data.teams.every(t=>Number.isFinite(Number(p[t.manager])));});
+const currentRound=String((completedRounds.at(-1)?.round||0)+1);
+const currentRoundNumber=Number(currentRound);
+if(!data.rounds.some(r=>Number(r.round)===currentRoundNumber)) throw new Error("Visi 38 turai jau užpildyti.");
 
 if(title.startsWith("[ANULIUOTI]")){
   data.roundPoints=data.roundPoints||{};
@@ -78,18 +81,19 @@ if(missing.length) throw new Error("Trūksta: "+missing.join(", "));
 if(unknown.length) throw new Error("Nerasti: "+unknown.join(", "));
 
 data.roundPoints=data.roundPoints||{};
-data.roundPoints[String(data.rounds[0].round)]=points;
+data.roundPoints[currentRound]=points;
 
 const totals={};
-for(const t of data.teams) totals[t.manager]={round:data.rounds[0].round,managerPoints:null,w:0,l:0,b:0,pm:0,pts:0};
+for(const t of data.teams) totals[t.manager]={round:currentRoundNumber,managerPoints:null,totalManagerPoints:0,w:0,l:0,b:0,pm:0,pts:0};
 
 for(const r of data.rounds){
   const rp=data.roundPoints[String(r.round)];
   if(!rp) continue;
-  for(const t of data.teams) if(rp[t.manager]!==undefined) totals[t.manager].managerPoints=Number(rp[t.manager]);
+  for(const t of data.teams) if(rp[t.manager]!==undefined) { totals[t.manager].managerPoints=Number(rp[t.manager]); totals[t.manager].totalManagerPoints+=Number(rp[t.manager]); }
   for(const g of r.pairings){
     const a=Number(rp[g.homeManager]), b=Number(rp[g.awayManager]);
     if(!Number.isFinite(a)||!Number.isFinite(b)) continue;
+    totals[g.homeManager].pm+=a-b; totals[g.awayManager].pm+=b-a;
     if(a>b){totals[g.homeManager].w++;totals[g.awayManager].l++;totals[g.homeManager].pts+=3}
     else if(b>a){totals[g.awayManager].w++;totals[g.homeManager].l++;totals[g.awayManager].pts+=3}
     else{totals[g.homeManager].w++;totals[g.awayManager].l++;totals[g.homeManager].pts+=3}
