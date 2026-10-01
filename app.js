@@ -2,7 +2,33 @@ let data;
 const ADMIN_PASSWORD_HASH="09c8e950e9465a1521625e9f47beaf5cf4141bc5e6f883e1b9635132348e578d";
 async function sha256(text){const bytes=new TextEncoder().encode(text);const hash=await crypto.subtle.digest("SHA-256",bytes);return [...new Uint8Array(hash)].map(b=>b.toString(16).padStart(2,"0")).join("")}
 const $=s=>document.querySelector(s);
-async function load(){try{const r=await fetch("./data/league.json?x="+Date.now());if(!r.ok)throw new Error("Lygos duomenys nepasiekiami");data=await r.json();data.roundPoints={};recalculateScores();render("home");try{const ctl=new AbortController();const timer=setTimeout(()=>ctl.abort(),5000);const r2=await fetch("https://ohazdehmrpvzotkxojtm.supabase.co/functions/v1/get-league-state?x="+Date.now(),{signal:ctl.signal});clearTimeout(timer);if(!r2.ok)throw new Error("Supabase HTTP "+r2.status);const s=await r2.json();const saved=s.data||s;data.roundPoints=saved.roundPoints||{};data.scores=saved.scores||{};recalculateScores();render("home");}catch(e){console.warn("Supabase nuskaitymas nepavyko",e)}startClock();$("#status").innerHTML="<strong>Lyga paruošta.</strong> <span>Taškai saugomi tiesiogiai.</span>"}catch(e){$("#status").innerHTML="<strong>Nepavyko įkelti lygos duomenų.</strong>";console.error(e)}}
+async function load(){
+  try{
+    const r=await fetch("./data/league.json?x="+Date.now());
+    if(!r.ok)throw new Error("Lygos duomenys nepasiekiami");
+    data=await r.json();
+    data.roundPoints={};
+    recalculateScores();
+    render("home");
+    try{
+      const ctl=new AbortController();
+      const timer=setTimeout(()=>ctl.abort(),5000);
+      const r2=await fetch("https://ohazdehmrpvzotkxojtm.supabase.co/functions/v1/get-league-state?x="+Date.now(),{signal:ctl.signal});
+      clearTimeout(timer);
+      if(!r2.ok)throw new Error("Supabase HTTP "+r2.status);
+      const saved=await r2.json();
+      data.roundPoints=saved.data?.roundPoints||saved.roundPoints||{};
+      data.scores=saved.data?.scores||saved.scores||{};
+      recalculateScores();
+      render("home");
+    }catch(e){console.warn("Supabase nuskaitymas nepavyko",e)}
+    startClock();
+    $("#status").innerHTML="<strong>Lyga paruošta.</strong> <span>Taškai saugomi tiesiogiai.</span>";
+  }catch(e){
+    $("#status").innerHTML="<strong>Nepavyko įkelti lygos duomenų.</strong>";
+    console.error(e);
+  }
+}
 function completedRound(n){const p=data.roundPoints?.[String(n)]||{};return data.teams.every(t=>Object.prototype.hasOwnProperty.call(p,t.manager)&&Number.isFinite(Number(p[t.manager])))}
 function currentRoundNumber(){const rounds=[...(data.rounds||[])].sort((a,b)=>Number(a.round)-Number(b.round));for(const r of rounds){if(!completedRound(r.round))return Number(r.round)}return Number(rounds.at(-1)?.round||1)}
 function round(){return roundByNumber(currentRoundNumber())||data.rounds[0]}
@@ -13,7 +39,7 @@ function render(v){document.querySelectorAll("nav button").forEach(b=>b.classLis
 function dateLabel(r){const dates=[...new Set((r?.pairings||[]).map(g=>g.date))];if(!dates.length)return "";const fmt=d=>new Intl.DateTimeFormat("lt-LT",{month:"long",day:"numeric"}).format(new Date(d+"T12:00:00"));return dates.length===1?fmt(dates[0]):fmt(dates[0])+" – "+fmt(dates.at(-1))}
 function home(){const r=round();return `<div class="grid"><section class="card"><div class="card-head"><div class="eyebrow">KITAS TURAS</div><h2>${r.round} turas • ${dateLabel(r)}</h2></div>${r.pairings.map(game).join("")}</section>${standings()}</div>`}
 function game(g){const h=data.teams.find(t=>t.manager===g.homeManager),a=data.teams.find(t=>t.manager===g.awayManager);return `<div class="game"><div class="team"><b>${g.homeTeam}</b><small>${g.homeManager}</small></div><div class="time">${g.time}<small>${g.date}</small></div><div class="team"><b>${g.awayTeam}</b><small>${g.awayManager}</small></div></div>`}
-function standings(){recalculateScores();let rows=data.teams.map(t=>({...t,...(data.scores[t.manager]||{})})).sort((a,b)=>(b.pts||0)-(a.pts||0)||((b.plusMinus||0)-(a.plusMinus||0));return `<section class="card"><div class="card-head"><div class="eyebrow">BENDRA ĮSKAITA</div><h2>Turnyro lentelė</h2></div><div class="table-wrap"><table class="table"><thead><tr><th>#</th><th>Komanda</th><th>Vadybininkas</th><th>W</th><th>L</th><th>B</th><th>Menedž. taškai</th><th>+/-</th><th>PTS</th></tr></thead><tbody>${rows.map((t,i)=>`<tr class="${i<6?"zone-playoff":i<10?"zone-playin":""}"><td>${i+1}</td><td><b>${t.team}</b></td><td>${t.manager}</td><td class="num">${t.w||0}</td><td class="num">${t.l||0}</td><td class="num">${t.b||0}</td><td class="num">${t.totalManagerPoints||0}</td><td class="num">${(t.plusMinus>0?"+":"")+(t.plusMinus||0)}</td><td class="num score">${t.pts||0}</td></tr>`).join("")}</tbody></table></div></section>`}
+function standings(){recalculateScores();let rows=data.teams.map(t=>({...t,...(data.scores[t.manager]||{})})).sort((a,b)=>(b.pts||0)-(a.pts||0)||((b.plusMinus||0)-(a.plusMinus||0)));return `<section class="card"><div class="card-head"><div class="eyebrow">BENDRA ĮSKAITA</div><h2>Turnyro lentelė</h2></div><div class="table-wrap"><table class="table"><thead><tr><th>#</th><th>Komanda</th><th>Vadybininkas</th><th>W</th><th>L</th><th>B</th><th>Menedž. taškai</th><th>+/-</th><th>PTS</th></tr></thead><tbody>${rows.map((t,i)=>`<tr class="${i<6?"zone-playoff":i<10?"zone-playin":""}"><td>${i+1}</td><td><b>${t.team}</b></td><td>${t.manager}</td><td class="num">${t.w||0}</td><td class="num">${t.l||0}</td><td class="num">${t.b||0}</td><td class="num">${t.totalManagerPoints||0}</td><td class="num">${(t.plusMinus>0?"+":"")+(t.plusMinus||0)}</td><td class="num score">${t.pts||0}</td></tr>`).join("")}</tbody></table></div></section>`}
 function schedule(){const r=round();return `<section class="card"><div class="card-head"><div class="eyebrow">TVARKARAŠTIS</div><h2>${r.round} turas • ${dateLabel(r)}</h2></div>${r.pairings.map((g,i)=>`<div class="result"><div><b>${i+1} mačas</b><br>${g.homeTeam} <span class="muted">(${g.homeManager})</span></div><b>VS</b><div>${g.awayTeam} <span class="muted">(${g.awayManager})</span></div></div>`).join("")}</section>`}
 function results(){return (data.rounds||[]).map(r=>{const p=data.roundPoints?.[String(r.round)]||{};return `<section class="card"><div class="card-head"><div class="eyebrow">REZULTATAI</div><h2>${r.round} turo rezultatai</h2></div>${r.pairings.map(g=>`<div class="result"><div><b>${g.homeManager}</b><br><span class="muted">${g.homeTeam}</span></div><div class="pts">${p[g.homeManager]??"—"} : ${p[g.awayManager]??"—"}</div><div><b>${g.awayManager}</b><br><span class="muted">${g.awayTeam}</span></div></div>`).join("")}</section>`}).join("")}
 function teams(){return `<section class="card"><div class="card-head"><div class="eyebrow">KOMANDOS</div><h2>20 vadybininkų</h2></div><div class="teamgrid">${data.teams.map(t=>`<div class="teamcard"><b>${t.team}</b><div class="muted">${t.manager}</div></div>`).join("")}</div></section>`}
