@@ -2136,6 +2136,14 @@
           "time": "21:00"
         },
         {
+          "homeTeam": "Valencia",
+          "homeManager": "Danasbutkus",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
+          "date": "2027-01-21",
+          "time": "21:00"
+        },
+        {
           "homeTeam": "Partizan",
           "homeManager": "deivis111",
           "awayTeam": "Olympiacos",
@@ -2182,14 +2190,6 @@
           "awayManager": "easymano",
           "date": "2027-01-22",
           "time": "21:00"
-        },
-        {
-          "homeTeam": "Valencia",
-          "homeManager": "Danasbutkus",
-          "awayTeam": "ASVEL",
-          "awayManager": "Audriust_4",
-          "date": "2027-01-22",
-          "time": "21:30"
         }
       ]
     },
@@ -3597,7 +3597,7 @@
   "source": {
     "schedule": "EuroLeague oficialus 2026–27 kalendoriaus PDF • 38 turai × 10 rungtynių",
     "managerScores": "GitHub • administratoriaus įvesti taškai",
-    "lastUpdate": "2026-10-20T13:10:41.712Z"
+    "lastUpdate": "2026-10-20T13:47:26.470Z"
   },
   "market": {
     "status": "open",
