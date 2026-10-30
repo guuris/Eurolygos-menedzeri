@@ -923,7 +923,7 @@
           "awayTeam": "Barcelona",
           "awayManager": "easymano",
           "date": "2026-11-05",
-          "time": "20:00"
+          "time": "20:45"
         },
         {
           "homeTeam": "ASVEL",
@@ -1350,7 +1350,7 @@
           "awayTeam": "Milano „Olimpia“",
           "awayManager": "shmitas",
           "date": "2026-12-03",
-          "time": "20:00"
+          "time": "20:45"
         },
         {
           "homeTeam": "Bayern",
@@ -1367,6 +1367,14 @@
           "awayManager": "easymano",
           "date": "2026-12-03",
           "time": "21:45"
+        },
+        {
+          "homeTeam": "Virtus",
+          "homeManager": "larys",
+          "awayTeam": "Partizan",
+          "awayManager": "deivis111",
+          "date": "2026-12-03",
+          "time": "22:00"
         },
         {
           "homeTeam": "Bešiktaš",
@@ -1397,14 +1405,6 @@
           "homeManager": "nerka7777",
           "awayTeam": "Maccabi",
           "awayManager": "dzonilexus",
-          "date": "2026-12-04",
-          "time": "21:30"
-        },
-        {
-          "homeTeam": "Virtus",
-          "homeManager": "larys",
-          "awayTeam": "Partizan",
-          "awayManager": "deivis111",
           "date": "2026-12-04",
           "time": "21:30"
         }
@@ -1690,7 +1690,7 @@
           "awayTeam": "Partizan",
           "awayManager": "deivis111",
           "date": "2026-12-22",
-          "time": "20:00"
+          "time": "20:45"
         },
         {
           "homeTeam": "ASVEL",
@@ -2025,20 +2025,20 @@
       "end": "2027-01-15",
       "pairings": [
         {
-          "homeTeam": "Hapoel",
-          "homeManager": "baudejas7",
-          "awayTeam": "Valencia",
-          "awayManager": "Danasbutkus",
-          "date": "2027-01-14",
-          "time": "20:00"
-        },
-        {
           "homeTeam": "Kauno „Žalgiris“",
           "homeManager": "EimantasMi",
           "awayTeam": "Crvena Zvezda",
           "awayManager": "endzei1",
           "date": "2027-01-14",
           "time": "20:00"
+        },
+        {
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "Valencia",
+          "awayManager": "Danasbutkus",
+          "date": "2027-01-14",
+          "time": "20:45"
         },
         {
           "homeTeam": "Panathinaikos",
@@ -2465,7 +2465,7 @@
           "awayTeam": "Baskonia",
           "awayManager": "nerka7777",
           "date": "2027-02-10",
-          "time": "20:00"
+          "time": "20:45"
         },
         {
           "homeTeam": "ASVEL",
@@ -3597,7 +3597,7 @@
   "source": {
     "schedule": "EuroLeague oficialus 2026–27 kalendoriaus PDF • 38 turai × 10 rungtynių",
     "managerScores": "GitHub • administratoriaus įvesti taškai",
-    "lastUpdate": "2026-10-30T09:19:24.668Z"
+    "lastUpdate": "2026-10-30T16:04:36.477Z"
   },
   "market": {
     "status": "open",
