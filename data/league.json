@@ -1424,20 +1424,20 @@
           "time": "19:45"
         },
         {
-          "homeTeam": "Hapoel",
-          "homeManager": "baudejas7",
-          "awayTeam": "ASVEL",
-          "awayManager": "Audriust_4",
-          "date": "2026-12-10",
-          "time": "20:00"
-        },
-        {
           "homeTeam": "Kauno „Žalgiris“",
           "homeManager": "EimantasMi",
           "awayTeam": "Baskonia",
           "awayManager": "nerka7777",
           "date": "2026-12-10",
           "time": "20:00"
+        },
+        {
+          "homeTeam": "Hapoel",
+          "homeManager": "baudejas7",
+          "awayTeam": "ASVEL",
+          "awayManager": "Audriust_4",
+          "date": "2026-12-10",
+          "time": "20:45"
         },
         {
           "homeTeam": "Milano „Olimpia“",
@@ -2339,7 +2339,7 @@
           "awayTeam": "Olympiacos",
           "awayManager": "almantas1992",
           "date": "2027-02-03",
-          "time": "20:00"
+          "time": "20:45"
         },
         {
           "homeTeam": "Bayern",
@@ -2916,7 +2916,7 @@
           "awayTeam": "Stambulo „Fenerbahce“",
           "awayManager": "nero99",
           "date": "2027-03-23",
-          "time": "20:00"
+          "time": "20:45"
         },
         {
           "homeTeam": "ASVEL",
@@ -2995,7 +2995,7 @@
           "awayTeam": "Dubai",
           "awayManager": "zylee14",
           "date": "2027-03-25",
-          "time": "20:00"
+          "time": "20:45"
         },
         {
           "homeTeam": "ASVEL",
@@ -3248,7 +3248,7 @@
           "awayTeam": "Crvena Zvezda",
           "awayManager": "endzei1",
           "date": "2027-04-08",
-          "time": "20:00"
+          "time": "20:45"
         },
         {
           "homeTeam": "ASVEL",
@@ -3597,7 +3597,7 @@
   "source": {
     "schedule": "EuroLeague oficialus 2026–27 kalendoriaus PDF • 38 turai × 10 rungtynių",
     "managerScores": "GitHub • administratoriaus įvesti taškai",
-    "lastUpdate": "2026-11-03T08:44:52.650Z"
+    "lastUpdate": "2026-11-03T16:36:17.109Z"
   },
   "market": {
     "status": "open",
