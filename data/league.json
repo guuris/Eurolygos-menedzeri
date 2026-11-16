@@ -1508,7 +1508,7 @@
           "awayTeam": "Partizan",
           "awayManager": "deivis111",
           "date": "2026-12-15",
-          "time": "19:30"
+          "time": "19:15"
         },
         {
           "homeTeam": "Stambulo „Fenerbahce“",
@@ -1516,7 +1516,7 @@
           "awayTeam": "Hapoel",
           "awayManager": "baudejas7",
           "date": "2026-12-15",
-          "time": "19:45"
+          "time": "21:15"
         },
         {
           "homeTeam": "Valencia",
@@ -1590,14 +1590,6 @@
       "end": "2026-12-18",
       "pairings": [
         {
-          "homeTeam": "Stambulo „Fenerbahce“",
-          "homeManager": "nero99",
-          "awayTeam": "Maccabi",
-          "awayManager": "dzonilexus",
-          "date": "2026-12-17",
-          "time": "19:45"
-        },
-        {
           "homeTeam": "Hapoel",
           "homeManager": "baudejas7",
           "awayTeam": "Kauno „Žalgiris“",
@@ -1610,6 +1602,14 @@
           "homeManager": "Audriust_4",
           "awayTeam": "Dubai",
           "awayManager": "zylee14",
+          "date": "2026-12-17",
+          "time": "21:00"
+        },
+        {
+          "homeTeam": "Stambulo „Fenerbahce“",
+          "homeManager": "nero99",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
           "date": "2026-12-17",
           "time": "21:00"
         },
@@ -3597,7 +3597,7 @@
   "source": {
     "schedule": "EuroLeague oficialus 2026–27 kalendoriaus PDF • 38 turai × 10 rungtynių",
     "managerScores": "GitHub • administratoriaus įvesti taškai",
-    "lastUpdate": "2026-11-16T11:03:19.230Z"
+    "lastUpdate": "2026-11-16T20:58:06.553Z"
   },
   "market": {
     "status": "open",
