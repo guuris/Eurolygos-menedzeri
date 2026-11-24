@@ -1369,6 +1369,14 @@
           "time": "21:45"
         },
         {
+          "homeTeam": "Baskonia",
+          "homeManager": "nerka7777",
+          "awayTeam": "Maccabi",
+          "awayManager": "dzonilexus",
+          "date": "2026-12-03",
+          "time": "22:00"
+        },
+        {
           "homeTeam": "Virtus",
           "homeManager": "larys",
           "awayTeam": "Partizan",
@@ -1399,14 +1407,6 @@
           "awayManager": "Audriust_4",
           "date": "2026-12-04",
           "time": "21:15"
-        },
-        {
-          "homeTeam": "Baskonia",
-          "homeManager": "nerka7777",
-          "awayTeam": "Maccabi",
-          "awayManager": "dzonilexus",
-          "date": "2026-12-04",
-          "time": "21:30"
         }
       ]
     },
@@ -1503,6 +1503,14 @@
       "end": "2026-12-16",
       "pairings": [
         {
+          "homeTeam": "Maccabi",
+          "homeManager": "dzonilexus",
+          "awayTeam": "Kauno „Žalgiris“",
+          "awayManager": "EimantasMi",
+          "date": "2026-12-15",
+          "time": "19:00"
+        },
+        {
           "homeTeam": "Stambulo „Anadolu Efes“",
           "homeManager": "staska123",
           "awayTeam": "Partizan",
@@ -1549,14 +1557,6 @@
           "awayManager": "vytolas21",
           "date": "2026-12-15",
           "time": "21:45"
-        },
-        {
-          "homeTeam": "Maccabi",
-          "homeManager": "dzonilexus",
-          "awayTeam": "Kauno „Žalgiris“",
-          "awayManager": "EimantasMi",
-          "date": "2026-12-15",
-          "time": "22:00"
         },
         {
           "homeTeam": "Bešiktaš",
@@ -1777,7 +1777,7 @@
           "awayTeam": "Maccabi",
           "awayManager": "dzonilexus",
           "date": "2026-12-29",
-          "time": "20:00"
+          "time": "21:00"
         },
         {
           "homeTeam": "Baskonia",
@@ -2022,7 +2022,7 @@
     {
       "round": 23,
       "start": "2027-01-14",
-      "end": "2027-01-15",
+      "end": "2027-01-21",
       "pairings": [
         {
           "homeTeam": "Kauno „Žalgiris“",
@@ -2081,14 +2081,6 @@
           "time": "19:00"
         },
         {
-          "homeTeam": "Olympiacos",
-          "homeManager": "almantas1992",
-          "awayTeam": "Paris",
-          "awayManager": "guuris",
-          "date": "2027-01-15",
-          "time": "21:15"
-        },
-        {
           "homeTeam": "Virtus",
           "homeManager": "larys",
           "awayTeam": "Barcelona",
@@ -2103,14 +2095,7 @@
           "awayManager": "nero99",
           "date": "2027-01-15",
           "time": "21:45"
-        }
-      ]
-    },
-    {
-      "round": 24,
-      "start": "2027-01-21",
-      "end": "2027-01-22",
-      "pairings": [
+        },
         {
           "homeTeam": "Hapoel",
           "homeManager": "baudejas7",
@@ -2118,7 +2103,14 @@
           "awayManager": "tomasas9",
           "date": "2027-01-21",
           "time": "19:00"
-        },
+        }
+      ]
+    },
+    {
+      "round": 24,
+      "start": "2027-01-21",
+      "end": "2027-01-26",
+      "pairings": [
         {
           "homeTeam": "Stambulo „Fenerbahce“",
           "homeManager": "nero99",
@@ -2190,6 +2182,14 @@
           "awayManager": "easymano",
           "date": "2027-01-22",
           "time": "21:00"
+        },
+        {
+          "homeTeam": "Olympiacos",
+          "homeManager": "almantas1992",
+          "awayTeam": "Paris",
+          "awayManager": "guuris",
+          "date": "2027-01-26",
+          "time": "21:15"
         }
       ]
     },
@@ -3169,7 +3169,7 @@
           "awayTeam": "Olympiacos",
           "awayManager": "almantas1992",
           "date": "2027-04-06",
-          "time": "20:45"
+          "time": "20:30"
         },
         {
           "homeTeam": "Baskonia",
@@ -3204,20 +3204,20 @@
           "time": "21:45"
         },
         {
-          "homeTeam": "Paris",
-          "homeManager": "guuris",
-          "awayTeam": "Stambulo „Anadolu Efes“",
-          "awayManager": "staska123",
-          "date": "2027-04-06",
-          "time": "21:45"
-        },
-        {
           "homeTeam": "Madrido „Real“",
           "homeManager": "rytuzaz",
           "awayTeam": "Milano „Olimpia“",
           "awayManager": "shmitas",
           "date": "2027-04-06",
           "time": "21:45"
+        },
+        {
+          "homeTeam": "Paris",
+          "homeManager": "guuris",
+          "awayTeam": "Stambulo „Anadolu Efes“",
+          "awayManager": "staska123",
+          "date": "2027-04-06",
+          "time": "22:00"
         },
         {
           "homeTeam": "Dubai",
@@ -3597,7 +3597,7 @@
   "source": {
     "schedule": "EuroLeague oficialus 2026–27 kalendoriaus PDF • 38 turai × 10 rungtynių",
     "managerScores": "GitHub • administratoriaus įvesti taškai",
-    "lastUpdate": "2026-11-23T13:19:42.879Z"
+    "lastUpdate": "2026-11-24T01:03:12.171Z"
   },
   "market": {
     "status": "open",
